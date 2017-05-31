@@ -10,16 +10,15 @@ import static scenarios.AndroidSetup.driver;
 
 public class GoogleHomePage extends BasePage {
 
-    @FindBy(xpath="//input[@id='lst-ib']")
-    WebElement searchBox;
-    @FindBy(xpath="//input[@value='Google Search']")
-    WebElement searchButton;
+    @FindBy(id="tsfi") WebElement searchBox;
+    @FindBy(id="tsbb") WebElement searchButton;
 
     public void navigateToGoogle(){
         driver.get("https://www.google.lk");
     }
 
     public void googleSearch(String text){
+        waitForElement(searchBox);
         searchBox.sendKeys(text);
         searchButton.click();
     }

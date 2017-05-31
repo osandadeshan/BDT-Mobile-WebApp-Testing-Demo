@@ -29,4 +29,10 @@ public class BasePageStepImpl {
         driver.quit();
     }
 
+    @Step("Wait <seconds> seconds")
+    public void wait(int seconds) throws InterruptedException {
+        Thread.sleep(seconds*1000);
+    }
+
+
 }

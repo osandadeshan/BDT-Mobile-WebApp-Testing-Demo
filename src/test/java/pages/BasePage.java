@@ -16,4 +16,9 @@ public class BasePage {
         wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
+    public void setTextAs(WebElement element, String text){
+        waitForElement(element);
+        element.sendKeys(text);
+    }
+
 }

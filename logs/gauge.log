@@ -4593,3 +4593,2067 @@ java.lang.Thread.run(Thread.java:745)
 15:14:29.149 Scenarios:	1 executed	0 passed	1 failed	0 skipped
 15:14:29.149 
 Total time taken: 18.776s
+11:57:24.627 Checking updates...
+11:57:32.293 # Google Search Test Specification
+11:57:32.295 ## Google Search Testing Scenario
+11:57:32.298 * Setting up environment to run Android in Appium
+
+11:57:52.246 * Navigate to Google
+11:57:54.748 * Validate that the Google search works for the text 
+
+     |Text To Speech                        |
+     |--------------------------------------|
+     |Behavioral Driven Testing using Appium|
+     |Mitra Innovation                      |
+     |Software Test Automation              |
+     |Gauge Framework                       |
+     |Selenium Java                         |
+11:57:56.256 
+Failed Step: Validate that the Google search works for the text
+11:57:56.256 Specification: specs\SearchTest.spec:15
+11:57:56.256 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"id","selector":"gs_htif0"}
+  (Session info: chrome=58.0.3029.83)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 187 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: f98a3020-2ecb-49e8-b2cf-4083299ccccf
+*** Element info: {Using=id, value=gs_htif0}
+11:57:56.256 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:399)
+io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:47)
+io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)
+org.openqa.selenium.By$ById.findElement(By.java:215)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+com.sun.proxy.$Proxy5.sendKeys(Unknown Source)
+pages.GoogleHomePage.googleSearch(GoogleHomePage.java:21)
+scenarios.GoogleHomeScenario.googleSearchTest(GoogleHomeScenario.java:29)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:57:56.260 * Closing the driver
+11:58:02.357 Plugin [Html Report] with pid [9236] did not exit after 4.00 seconds. Forcefully killing it.
+11:58:02.357 Error while killing plugin Html Report : invalid argument 
+11:58:02.980 Specifications:	1 executed	0 passed	1 failed	0 skipped
+11:58:02.982 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+11:58:02.982 
+Total time taken: 26.27s
+12:00:18.104 Checking updates...
+12:00:23.404 # Google Search Test Specification
+12:00:23.405 ## Google Search Testing Scenario
+12:00:23.408 * Setting up environment to run Android in Appium
+
+12:00:38.307 * Navigate to Google
+12:00:40.268 * Validate that the Google search works for the text 
+
+     |Text To Speech                        |
+     |--------------------------------------|
+     |Behavioral Driven Testing using Appium|
+     |Mitra Innovation                      |
+     |Software Test Automation              |
+     |Gauge Framework                       |
+     |Selenium Java                         |
+12:00:41.553 
+Failed Step: Validate that the Google search works for the text
+12:00:41.553 Specification: specs\SearchTest.spec:15
+12:00:41.553 Error Message: org.openqa.selenium.WebDriverException: unknown error: cannot focus element
+  (Session info: chrome=58.0.3029.83)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 329 milliseconds
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: e0a65072-e3a6-493d-8fbe-1e80e65a95ad
+12:00:41.553 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
+io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:27)
+io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:90)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+com.sun.proxy.$Proxy5.sendKeys(Unknown Source)
+pages.GoogleHomePage.googleSearch(GoogleHomePage.java:21)
+scenarios.GoogleHomeScenario.googleSearchTest(GoogleHomeScenario.java:29)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+12:00:41.561 * Closing the driver
+12:00:43.560 Plugin [Html Report] with pid [10748] has exited
+12:00:43.869 Specifications:	1 executed	0 passed	1 failed	0 skipped
+12:00:43.869 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12:00:43.869 
+Total time taken: 20.161s
+12:01:30.640 Checking updates...
+12:01:36.165 # Google Search Test Specification
+12:01:36.166 ## Google Search Testing Scenario
+12:01:36.168 * Setting up environment to run Android in Appium
+
+12:01:51.958 * Navigate to Google
+12:01:54.677 * Validate that the Google search works for the text 
+
+     |Text To Speech                        |
+     |--------------------------------------|
+     |Behavioral Driven Testing using Appium|
+     |Mitra Innovation                      |
+     |Software Test Automation              |
+     |Gauge Framework                       |
+     |Selenium Java                         |
+12:01:56.030 
+Failed Step: Validate that the Google search works for the text
+12:01:56.030 Specification: specs\SearchTest.spec:15
+12:01:56.030 Error Message: org.openqa.selenium.WebDriverException: unknown error: cannot focus element
+  (Session info: chrome=58.0.3029.83)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 205 milliseconds
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: 0048b30d-78fc-4737-838c-a9a80c6aae57
+12:01:56.030 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:269)
+io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:27)
+io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:90)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+com.sun.proxy.$Proxy5.sendKeys(Unknown Source)
+pages.GoogleHomePage.googleSearch(GoogleHomePage.java:22)
+scenarios.GoogleHomeScenario.googleSearchTest(GoogleHomeScenario.java:29)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+12:01:56.033 * Closing the driver
+12:01:57.916 Plugin [Html Report] with pid [4024] has exited
+12:01:58.218 Specifications:	1 executed	0 passed	1 failed	0 skipped
+12:01:58.218 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12:01:58.218 
+Total time taken: 21.756s
+15:59:57.289 Checking updates...
+16:00:20.389 [ValidationError] C:\Users\Osanda\IdeaProjects\BDT_Mobile_WebApp_Testing_Demo\specs\GridlasticRegistration.spec:10 Duplicate step implementation => 'Validate the page title'
+16:00:23.145 Plugin [Html Report] with pid [4328] has exited
+16:00:23.348 Specifications:	0 executed	0 passed	0 failed	1 skipped
+16:00:23.348 Scenarios:	0 executed	0 passed	0 failed	1 skipped
+16:00:23.348 
+Total time taken: 1.651s
+16:02:06.419 Checking updates...
+16:02:14.050 # Gridlastic Registration Test Specification
+16:02:14.053 ## Gridlastic Registration Testing Scenario
+16:02:14.060 * Setting up environment to run Android in Appium
+16:03:02.385 * Navigate to Gridlastic Registration Page
+16:03:05.270 
+Failed Step: Navigate to Gridlastic Registration Page
+16:03:05.270 Specification: specs\GridlasticRegistration.spec:9
+16:03:05.270 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//android.widget.EditText[@text='First Name']"}
+  (Session info: chrome=58.0.3029.83)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 234 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: 81ad4ef2-9100-48c2-9aa8-89e0e53c87d6
+*** Element info: {Using=xpath, value=//android.widget.EditText[@text='First Name']}
+16:03:05.270 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+pages.GridlasticRegistrationPage.<init>(GridlasticRegistrationPage.java:16)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.lang.Class.newInstance(Class.java:442)
+org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:130)
+org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:63)
+scenarios.GridlasticRegistrationScenario.<init>(GridlasticRegistrationScenario.java:22)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.lang.Class.newInstance(Class.java:442)
+com.thoughtworks.gauge.ClassInstanceManager.get(ClassInstanceManager.java:34)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:37)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+16:03:05.401 * Closing the driver
+16:03:09.716 Plugin [Html Report] with pid [4468] has exited
+16:03:10.822 Specifications:	1 executed	0 passed	1 failed	0 skipped
+16:03:10.822 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+16:03:10.890 
+Total time taken: 54.65s
+16:03:32.157 Checking updates...
+16:03:50.836 # Gridlastic Registration Test Specification
+16:03:50.837 ## Gridlastic Registration Testing Scenario
+16:03:50.841 * Setting up environment to run Android in Appium
+16:04:11.385 * Navigate to Gridlastic Registration Page
+16:04:12.490 
+Failed Step: Navigate to Gridlastic Registration Page
+16:04:12.490 Specification: specs\GridlasticRegistration.spec:9
+16:04:12.490 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//android.widget.EditText[@text='First Name']"}
+  (Session info: chrome=58.0.3029.83)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 411 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: f0b3b068-3f6c-44d0-8002-93aba0ea63bd
+*** Element info: {Using=xpath, value=//android.widget.EditText[@text='First Name']}
+16:04:12.490 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+pages.GridlasticRegistrationPage.<init>(GridlasticRegistrationPage.java:16)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.lang.Class.newInstance(Class.java:442)
+org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:130)
+org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:63)
+scenarios.GridlasticRegistrationScenario.<init>(GridlasticRegistrationScenario.java:22)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.lang.Class.newInstance(Class.java:442)
+com.thoughtworks.gauge.ClassInstanceManager.get(ClassInstanceManager.java:34)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:37)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+16:04:12.495 * Closing the driver
+16:04:14.466 Plugin [Html Report] with pid [8896] has exited
+16:04:14.817 Specifications:	1 executed	0 passed	1 failed	0 skipped
+16:04:14.817 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+16:04:14.817 
+Total time taken: 23.764s
+16:10:51.830 Checking updates...
+16:10:57.108 # Gridlastic Registration Test Specification
+16:10:57.109 ## Gridlastic Registration Testing Scenario
+16:10:57.111 * Setting up environment to run Android in Appium
+16:11:12.416 * Navigate to Gridlastic Registration Page
+
+16:11:13.367 
+Failed Step: Navigate to Gridlastic Registration Page
+16:11:13.367 Specification: specs\GridlasticRegistration.spec:9
+16:11:13.367 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//android.widget.EditText[@text='First Name']"}
+  (Session info: chrome=58.0.3029.83)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 354 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: 2716a1a5-1f44-46a5-b288-785606d49fce
+*** Element info: {Using=xpath, value=//android.widget.EditText[@text='First Name']}
+16:11:13.367 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+pages.GridlasticRegistrationPage.<init>(GridlasticRegistrationPage.java:16)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.lang.Class.newInstance(Class.java:442)
+org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:130)
+org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:63)
+scenarios.GridlasticRegistrationScenario.<init>(GridlasticRegistrationScenario.java:22)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.lang.Class.newInstance(Class.java:442)
+com.thoughtworks.gauge.ClassInstanceManager.get(ClassInstanceManager.java:34)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:37)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+16:11:13.371 * Closing the driver
+16:11:15.515 Plugin [Html Report] with pid [10032] has exited
+16:11:15.817 Specifications:	1 executed	0 passed	1 failed	0 skipped
+16:11:15.817 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+16:11:15.817 
+Total time taken: 18.328s
+17:07:20.007 Checking updates...
+17:07:40.024 # Gridlastic Registration Test Specification
+17:07:40.027 ## Gridlastic Registration Testing Scenario
+17:07:40.030 * Setting up environment to run Android in Appium
+17:08:40.976 * Navigate to Gridlastic Registration Page
+17:08:42.477 
+Failed Step: Navigate to Gridlastic Registration Page
+17:08:42.477 Specification: specs\GridlasticRegistration.spec:9
+17:08:42.477 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//android.widget.EditText[@text='First Name']"}
+  (Session info: chrome=58.0.3029.83)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 383 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: f0d3f2d8-cb2c-4ca6-a90e-b16085a206d9
+*** Element info: {Using=xpath, value=//android.widget.EditText[@text='First Name']}
+17:08:42.477 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+pages.GridlasticRegistrationPage.<init>(GridlasticRegistrationPage.java:16)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.lang.Class.newInstance(Class.java:442)
+org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:130)
+org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:63)
+scenarios.GridlasticRegistrationScenario.<init>(GridlasticRegistrationScenario.java:22)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.lang.Class.newInstance(Class.java:442)
+com.thoughtworks.gauge.ClassInstanceManager.get(ClassInstanceManager.java:34)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:37)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+17:08:42.479 * Closing the driver
+17:08:45.612 Plugin [Html Report] with pid [9952] has exited
+17:08:46.315 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:08:46.315 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+17:08:46.338 
+Total time taken: 1m4.839s
+17:11:24.788 Checking updates...
+17:11:31.024 # Gridlastic Registration Test Specification
+17:11:31.026 ## Gridlastic Registration Testing Scenario
+17:11:31.030 * Setting up environment to run Android in Appium
+17:11:44.473 * Navigate to Gridlastic Registration Page
+17:11:45.388 
+Failed Step: Navigate to Gridlastic Registration Page
+17:11:45.388 Specification: specs\GridlasticRegistration.spec:9
+17:11:45.388 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//android.widget.EditText[@text='Last Name']"}
+  (Session info: chrome=58.0.3029.83)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 376 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: 95220deb-fd27-4ca8-bf0d-5956937ff21e
+*** Element info: {Using=xpath, value=//android.widget.EditText[@text='Last Name']}
+17:11:45.388 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+pages.GridlasticRegistrationPage.<init>(GridlasticRegistrationPage.java:17)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.lang.Class.newInstance(Class.java:442)
+org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:130)
+org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:63)
+scenarios.GridlasticRegistrationScenario.<init>(GridlasticRegistrationScenario.java:22)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.lang.Class.newInstance(Class.java:442)
+com.thoughtworks.gauge.ClassInstanceManager.get(ClassInstanceManager.java:34)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:37)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+17:11:45.393 * Closing the driver
+17:11:47.373 Plugin [Html Report] with pid [16260] has exited
+17:11:47.575 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:11:47.575 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+17:11:47.575 
+Total time taken: 16.377s
+17:26:55.248 Checking updates...
+17:27:00.814 # Gridlastic Registration Test Specification
+17:27:00.816 ## Gridlastic Registration Testing Scenario
+17:27:00.819 * Setting up environment to run Android in Appium
+17:27:14.032 * Navigate to Gridlastic Registration Page
+17:27:14.942 
+Failed Step: Navigate to Gridlastic Registration Page
+17:27:14.943 Specification: specs\GridlasticRegistration.spec:9
+17:27:14.943 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//android.widget.EditText[@text='Last Name']"}
+  (Session info: chrome=58.0.3029.83)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 397 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: 3ae039a3-2680-455a-abcf-8e4749ad8302
+*** Element info: {Using=xpath, value=//android.widget.EditText[@text='Last Name']}
+17:27:14.943 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+pages.GridlasticRegistrationPage.<init>(GridlasticRegistrationPage.java:17)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.lang.Class.newInstance(Class.java:442)
+org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:130)
+org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:63)
+scenarios.GridlasticRegistrationScenario.<init>(GridlasticRegistrationScenario.java:22)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.lang.Class.newInstance(Class.java:442)
+com.thoughtworks.gauge.ClassInstanceManager.get(ClassInstanceManager.java:34)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:37)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+17:27:14.944 * Closing the driver
+17:27:17.003 Plugin [Html Report] with pid [15396] has exited
+17:27:17.204 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:27:17.204 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+17:27:17.204 
+Total time taken: 16.191s
+17:30:58.854 Checking updates...
+17:31:04.519 # Gridlastic Registration Test Specification
+17:31:04.521 ## Gridlastic Registration Testing Scenario
+17:31:04.525 * Setting up environment to run Android in Appium
+17:31:18.049 * Navigate to Gridlastic Registration Page
+17:31:23.197 * Validate the Gridlastic Registration Page title
+
+17:31:23.201 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+
+17:31:38.866 
+Failed Step: Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+17:31:38.866 Specification: specs\GridlasticRegistration.spec:16
+17:31:38.866 Error Message: org.openqa.selenium.TimeoutException: Timed out after 15 seconds waiting for element to be clickable: Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@1c58011c
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: 34e19a95-3db1-44ed-b1e7-17af87c91381
+17:31:38.867 Stacktrace: 
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+pages.BasePage.waitForElement(BasePage.java:16)
+pages.BasePage.setTextAs(BasePage.java:20)
+pages.GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:35)
+scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:41)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+17:31:38.867 * Closing the driver
+17:31:40.827 Plugin [Html Report] with pid [14368] has exited
+17:31:41.029 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:31:41.029 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+17:31:41.029 
+Total time taken: 36.314s
+17:34:19.496 Checking updates...
+17:34:25.362 # Gridlastic Registration Test Specification
+17:34:25.363 ## Gridlastic Registration Testing Scenario
+17:34:25.366 * Setting up environment to run Android in Appium
+17:34:39.141 * Navigate to Gridlastic Registration Page
+17:34:43.173 * Validate the Gridlastic Registration Page title
+
+17:34:43.178 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+
+17:34:58.814 
+Failed Step: Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+17:34:58.814 Specification: specs\GridlasticRegistration.spec:16
+17:34:58.814 Error Message: org.openqa.selenium.TimeoutException: Timed out after 15 seconds waiting for element to be clickable: Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@fae9e82
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: f0c951f2-f378-405b-8cb5-f04b024363bf
+17:34:58.814 Stacktrace: 
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+pages.BasePage.waitForElement(BasePage.java:16)
+pages.BasePage.setTextAs(BasePage.java:20)
+pages.GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:35)
+scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:41)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+17:34:58.814 * Closing the driver
+17:35:00.674 Plugin [Html Report] with pid [3840] has exited
+17:35:00.774 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:35:00.774 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+17:35:00.774 
+Total time taken: 35.332s
+17:38:38.631 Checking updates...
+17:38:44.402 # Gridlastic Registration Test Specification
+17:38:44.403 ## Gridlastic Registration Testing Scenario
+17:38:44.406 * Setting up environment to run Android in Appium
+17:38:58.261 * Navigate to Gridlastic Registration Page
+17:39:02.181 * Validate the Gridlastic Registration Page title
+
+17:39:02.184 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+
+17:39:18.106 
+Failed Step: Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+17:39:18.106 Specification: specs\GridlasticRegistration.spec:16
+17:39:18.106 Error Message: org.openqa.selenium.TimeoutException: Timed out after 15 seconds waiting for visibility of Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@2ff2a5bd
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: 5ca8a2c9-e234-41de-aef9-80b3b8a40531
+17:39:18.107 Stacktrace: 
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+pages.BasePage.waitForElement(BasePage.java:16)
+pages.BasePage.setTextAs(BasePage.java:20)
+pages.GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:35)
+scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:41)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+17:39:18.108 * Closing the driver
+17:39:20.343 Plugin [Html Report] with pid [5944] has exited
+17:39:20.544 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:39:20.544 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+17:39:20.544 
+Total time taken: 35.984s
+17:41:10.681 Checking updates...
+17:41:16.338 # Gridlastic Registration Test Specification
+17:41:16.340 ## Gridlastic Registration Testing Scenario
+17:41:16.343 * Setting up environment to run Android in Appium
+17:41:30.506 * Navigate to Gridlastic Registration Page
+17:41:35.162 * Validate the Gridlastic Registration Page title
+
+17:41:35.165 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+
+17:41:36.824 
+Failed Step: Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+17:41:36.824 Specification: specs\GridlasticRegistration.spec:16
+17:41:36.824 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//android.widget.EditText[@text='First Name']"}
+  (Session info: chrome=58.0.3029.83)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 305 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: a84f83dc-a344-45cb-85b5-5d793df2576d
+*** Element info: {Using=xpath, value=//android.widget.EditText[@text='First Name']}
+17:41:36.824 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+com.sun.proxy.$Proxy5.sendKeys(Unknown Source)
+pages.BasePage.setTextAs(BasePage.java:20)
+pages.GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:35)
+scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:41)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+17:41:36.826 * Closing the driver
+17:41:38.726 Plugin [Html Report] with pid [9588] has exited
+17:41:39.027 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:41:39.027 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+17:41:39.027 
+Total time taken: 22.437s
+17:45:01.278 Checking updates...
+17:45:07.196 # Gridlastic Registration Test Specification
+17:45:07.197 ## Gridlastic Registration Testing Scenario
+17:45:07.199 * Setting up environment to run Android in Appium
+17:45:20.487 * Navigate to Gridlastic Registration Page
+17:45:24.964 * Validate the Gridlastic Registration Page title
+
+17:45:24.966 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+
+17:45:26.860 
+Failed Step: Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+17:45:26.860 Specification: specs\GridlasticRegistration.spec:16
+17:45:26.860 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//android.widget.EditText[@text='First Name']"}
+  (Session info: chrome=58.0.3029.83)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 275 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: d50d84a2-08a9-4f2e-8170-33af05dd512c
+*** Element info: {Using=xpath, value=//android.widget.EditText[@text='First Name']}
+17:45:26.860 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+com.sun.proxy.$Proxy5.click(Unknown Source)
+pages.BasePage.setTextAs(BasePage.java:20)
+pages.GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:35)
+scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:41)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+17:45:26.863 * Closing the driver
+17:45:28.874 Plugin [Html Report] with pid [7820] has exited
+17:45:29.077 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:45:29.077 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+17:45:29.077 
+Total time taken: 21.74s
+17:46:15.939 Checking updates...
+17:46:21.691 # Gridlastic Registration Test Specification
+17:46:21.693 ## Gridlastic Registration Testing Scenario
+17:46:21.696 * Setting up environment to run Android in Appium
+17:46:37.737 * Navigate to Gridlastic Registration Page
+17:46:41.467 * Validate the Gridlastic Registration Page title
+
+17:46:41.470 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+
+17:46:57.346 
+Failed Step: Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+17:46:57.347 Specification: specs\GridlasticRegistration.spec:16
+17:46:57.347 Error Message: org.openqa.selenium.TimeoutException: Timed out after 15 seconds waiting for element to be clickable: Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@7c7ed5f6
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: a76729ad-a152-499a-9030-a9936ba018df
+17:46:57.347 Stacktrace: 
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+pages.BasePage.waitForElement(BasePage.java:16)
+pages.BasePage.setTextAs(BasePage.java:20)
+pages.GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:35)
+scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:41)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+17:46:57.347 * Closing the driver
+17:46:59.262 Plugin [Html Report] with pid [16024] has exited
+17:46:59.462 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:46:59.462 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+17:46:59.462 
+Total time taken: 37.638s
+17:53:18.374 # Gridlastic Registration Test Specification
+17:53:18.376 ## Gridlastic Registration Testing Scenario
+17:53:18.379 * Setting up environment to run Android in Appium
+17:53:18.833 Checking updates...
+17:53:25.936 Failed to download html-report-install.json file: Get https://downloads.getgauge.io/plugin/html-report?l=java&p=html-report,java&o=windows&a=amd64: x509: certificate signed by unknown authority
+17:53:25.961 Failed to download java-install.json file: Get https://downloads.getgauge.io/plugin/java?l=java&p=html-report,java&o=windows&a=amd64: x509: certificate signed by unknown authority
+17:53:33.434 * Navigate to Gridlastic Registration Page
+17:53:37.474 * Validate the Gridlastic Registration Page title
+
+17:53:37.476 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+
+17:53:39.792 
+Failed Step: Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+17:53:39.792 Specification: specs\GridlasticRegistration.spec:16
+17:53:39.792 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//android.widget.EditText[@text='First Name']"}
+  (Session info: chrome=58.0.3029.83)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 196 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: 4d56602c-f952-4e14-98cd-d839b08bd389
+*** Element info: {Using=xpath, value=//android.widget.EditText[@text='First Name']}
+17:53:39.792 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+com.sun.proxy.$Proxy5.sendKeys(Unknown Source)
+pages.GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:35)
+scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:41)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+17:53:39.796 * Closing the driver
+17:53:41.738 Plugin [Html Report] with pid [10280] has exited
+17:53:41.940 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:53:41.940 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+17:53:41.940 
+Total time taken: 25.273s
+17:54:39.869 Checking updates...
+17:54:46.194 # Gridlastic Registration Test Specification
+17:54:46.198 ## Gridlastic Registration Testing Scenario
+17:54:46.199 * Setting up environment to run Android in Appium
+17:55:02.274 * Navigate to Gridlastic Registration Page
+17:55:06.668 * Validate the Gridlastic Registration Page title
+
+17:55:06.673 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+
+17:55:08.703 
+Failed Step: Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+17:55:08.703 Specification: specs\GridlasticRegistration.spec:16
+17:55:08.703 Error Message: java.lang.IllegalMonitorStateException
+17:55:08.703 Stacktrace: 
+java.lang.Object.wait(Native Method)
+pages.GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:36)
+scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:41)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+17:55:08.703 * Closing the driver
+17:55:10.730 Plugin [Html Report] with pid [11676] has exited
+17:55:10.936 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:55:10.936 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+17:55:10.936 
+Total time taken: 24.546s
+17:56:42.186 Checking updates...
+17:56:48.286 # Gridlastic Registration Test Specification
+17:56:48.287 ## Gridlastic Registration Testing Scenario
+17:56:48.290 * Setting up environment to run Android in Appium
+17:57:04.160 * Navigate to Gridlastic Registration Page
+17:57:08.350 * Validate the Gridlastic Registration Page title
+
+17:57:08.360 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+
+17:57:12.680 
+Failed Step: Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+17:57:12.680 Specification: specs\GridlasticRegistration.spec:16
+17:57:12.680 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//android.widget.EditText[@text='First Name']"}
+  (Session info: chrome=58.0.3029.83)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 111 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: e6b27974-f0ba-40d6-8efd-be5111938dbf
+*** Element info: {Using=xpath, value=//android.widget.EditText[@text='First Name']}
+17:57:12.680 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+com.sun.proxy.$Proxy5.sendKeys(Unknown Source)
+pages.GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:40)
+scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:41)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+17:57:12.686 * Closing the driver
+17:57:14.931 Plugin [Html Report] with pid [15960] has exited
+17:57:15.234 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:57:15.234 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+17:57:15.234 
+Total time taken: 26.726s
+17:59:36.176 Checking updates...
+17:59:42.154 # Gridlastic Registration Test Specification
+17:59:42.155 ## Gridlastic Registration Testing Scenario
+17:59:42.158 * Setting up environment to run Android in Appium
+17:59:56.686 * Navigate to Gridlastic Registration Page
+18:00:00.653 * Validate the Gridlastic Registration Page title
+
+18:00:00.655 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+
+18:00:16.897 
+Failed Step: Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+18:00:16.897 Specification: specs\GridlasticRegistration.spec:16
+18:00:16.898 Error Message: org.openqa.selenium.TimeoutException: Timed out after 15 seconds waiting for element to be clickable: Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@fae9e82
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: 4ec65f50-9746-4093-ae33-f0d1f735652f
+18:00:16.898 Stacktrace: 
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+pages.BasePage.waitForElement(BasePage.java:16)
+pages.GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:35)
+scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:41)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+18:00:16.898 * Closing the driver
+18:00:18.976 Plugin [Html Report] with pid [2348] has exited
+18:00:19.279 Specifications:	1 executed	0 passed	1 failed	0 skipped
+18:00:19.279 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+18:00:19.279 
+Total time taken: 36.864s
+22:43:48.136 Checking updates...
+22:44:03.308 # Gridlastic Registration Test Specification
+22:44:03.309 ## Gridlastic Registration Testing Scenario
+22:44:03.312 * Setting up environment to run Android in Appium
+22:44:31.559 * Navigate to Gridlastic Registration Page
+22:45:12.191 * Validate the Gridlastic Registration Page title
+
+22:45:12.224 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+
+22:45:45.170 Checking updates...
+22:46:02.150 # Gridlastic Registration Test Specification
+22:46:02.150 ## Gridlastic Registration Testing Scenario
+22:46:02.159 * Setting up environment to run Android in Appium
+22:46:06.275 
+Failed Step: Setting up environment to run Android in Appium
+22:46:06.275 Specification: specs\GridlasticRegistration.spec:8
+22:46:06.275 Error Message: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 289 milliseconds
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+22:46:06.275 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:242)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:128)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:155)
+io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:22)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:202)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:50)
+scenarios.AndroidSetup.prepareAndroidForAppium(AndroidSetup.java:49)
+scenarios.BasePageStepImpl.setUp(BasePageStepImpl.java:19)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+22:46:06.275 * Closing the driver
+22:46:06.629 
+Failed Step: Closing the driver
+22:46:06.629 Specification: specs\GridlasticRegistration.spec:21
+22:46:06.629 Error Message: java.lang.NullPointerException
+22:46:06.629 Stacktrace: 
+scenarios.BasePageStepImpl.after(BasePageStepImpl.java:29)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+22:46:07.445 Plugin [Html Report] with pid [8520] has exited
+22:46:07.950 Specifications:	1 executed	0 passed	1 failed	0 skipped
+22:46:07.950 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22:46:07.950 
+Total time taken: 4.65s
+22:46:19.914 Checking updates...
+22:46:25.925 # Gridlastic Registration Test Specification
+22:46:25.926 ## Gridlastic Registration Testing Scenario
+22:46:25.931 * Setting up environment to run Android in Appium
+22:46:27.809 
+Failed Step: Setting up environment to run Android in Appium
+22:46:27.809 Specification: specs\GridlasticRegistration.spec:8
+22:46:27.809 Error Message: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 239 milliseconds
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+22:46:27.809 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:242)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:128)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:155)
+io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:22)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:202)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:50)
+scenarios.AndroidSetup.prepareAndroidForAppium(AndroidSetup.java:49)
+scenarios.BasePageStepImpl.setUp(BasePageStepImpl.java:19)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+22:46:27.809 * Closing the driver
+22:46:28.139 
+Failed Step: Closing the driver
+22:46:28.139 Specification: specs\GridlasticRegistration.spec:21
+22:46:28.139 Error Message: java.lang.NullPointerException
+22:46:28.139 Stacktrace: 
+scenarios.BasePageStepImpl.after(BasePageStepImpl.java:29)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+22:46:28.260 Plugin [Html Report] with pid [8720] has exited
+22:46:28.582 Specifications:	1 executed	0 passed	1 failed	0 skipped
+22:46:28.582 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22:46:28.582 
+Total time taken: 2.325s
+22:47:11.072 Checking updates...
+22:47:16.843 # Gridlastic Registration Test Specification
+22:47:16.845 ## Gridlastic Registration Testing Scenario
+22:47:16.850 * Setting up environment to run Android in Appium
+22:47:34.614 * Navigate to Gridlastic Registration Page
+22:48:08.881 * Validate the Gridlastic Registration Page title
+
+22:48:08.907 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+
+22:48:14.145 
+Failed Step: Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+22:48:14.145 Specification: specs\GridlasticRegistration.spec:16
+22:48:14.145 Error Message: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=58.0.3029.83)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.34 seconds
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: 2961a8a9-d3ba-480e-9643-f7a3b49e7508
+*** Element info: {Using=xpath, value=//android.widget.EditText[@placeholder='First Name']}
+22:48:14.145 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+com.sun.proxy.$Proxy5.isDisplayed(Unknown Source)
+org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
+org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:41)
+org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
+org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
+org.openqa.selenium.support.ui.ExpectedConditions$21.apply(ExpectedConditions.java:638)
+org.openqa.selenium.support.ui.ExpectedConditions$21.apply(ExpectedConditions.java:631)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
+pages.BasePage.waitForElement(BasePage.java:16)
+pages.GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:35)
+scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:41)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+22:48:14.148 * Closing the driver
+22:48:16.728 Plugin [Html Report] with pid [11788] has exited
+22:48:17.531 Specifications:	1 executed	0 passed	1 failed	0 skipped
+22:48:17.531 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+22:48:17.531 
+Total time taken: 59.383s
+10:39:00.928 Checking updates...
+10:39:31.002 # Gridlastic Registration Test Specification
+10:39:31.003 ## Gridlastic Registration Testing Scenario
+10:39:31.006 * Setting up environment to run Android in Appium
+10:40:29.396 * Navigate to Gridlastic Registration Page
+10:40:31.697 * Validate the Gridlastic Registration Page title
+
+10:40:31.703 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+
+10:40:48.331 
+Failed Step: Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+10:40:48.331 Specification: specs\GridlasticRegistration.spec:16
+10:40:48.331 Error Message: org.openqa.selenium.TimeoutException: Timed out after 15 seconds waiting for element to be clickable: Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@31b0db91
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: b71d7a59-bbd8-4b6d-9a86-27483038d9b3
+10:40:48.331 Stacktrace: 
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+pages.BasePage.waitForElement(BasePage.java:16)
+pages.GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:35)
+scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:41)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+10:40:48.331 * Closing the driver
+10:40:51.463 Plugin [Html Report] with pid [12680] has exited
+10:40:51.765 Specifications:	1 executed	0 passed	1 failed	0 skipped
+10:40:51.765 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+10:40:51.765 
+Total time taken: 1m20.708s
+12:23:00.405 Checking updates...
+12:23:17.976 # Gridlastic Registration Test Specification
+12:23:17.977 ## Gridlastic Registration Testing Scenario
+12:23:17.981 * Setting up environment to run Android in Appium
+12:23:37.079 * Navigate to Gridlastic Registration Page
+12:23:40.712 * Validate the Gridlastic Registration Page title
+
+12:23:40.716 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+
+12:23:56.943 
+Failed Step: Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+12:23:56.943 Specification: specs\GridlasticRegistration.spec:16
+12:23:56.943 Error Message: org.openqa.selenium.TimeoutException: Timed out after 15 seconds waiting for element to be clickable: Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@5d070970
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: a00d9a70-e104-48b4-8779-2dfef9826fc5
+12:23:56.943 Stacktrace: 
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+pages.BasePage.waitForElement(BasePage.java:16)
+pages.GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:35)
+scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:41)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+12:23:56.943 * Closing the driver
+12:24:00.041 Plugin [Html Report] with pid [280] has exited
+12:24:00.321 Specifications:	1 executed	0 passed	1 failed	0 skipped
+12:24:00.321 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12:24:00.321 
+Total time taken: 41.366s
+12:42:33.836 Checking updates...
+12:42:48.389 # Gridlastic Registration Test Specification
+12:42:48.391 ## Gridlastic Registration Testing Scenario
+12:42:48.394 * Setting up environment to run Android in Appium
+12:43:04.070 * Navigate to Gridlastic Registration Page
+12:43:05.062 
+Failed Step: Navigate to Gridlastic Registration Page
+12:43:05.062 Specification: specs\GridlasticRegistration.spec:9
+12:43:05.062 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//android.widget.EditText[@text='First Name']"}
+  (Session info: chrome=58.0.3029.83)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 257 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: 696f2c47-a5ac-4a9e-be5c-0f16d7d5297e
+*** Element info: {Using=xpath, value=//android.widget.EditText[@text='First Name']}
+12:43:05.062 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+pages.GridlasticRegistrationPage.<init>(GridlasticRegistrationPage.java:17)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.lang.Class.newInstance(Class.java:442)
+org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:130)
+org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:63)
+scenarios.GridlasticRegistrationScenario.<init>(GridlasticRegistrationScenario.java:22)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.lang.Class.newInstance(Class.java:442)
+com.thoughtworks.gauge.ClassInstanceManager.get(ClassInstanceManager.java:34)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:37)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+12:43:05.063 * Closing the driver
+12:43:08.193 Plugin [Html Report] with pid [8264] has exited
+12:43:08.697 Specifications:	1 executed	0 passed	1 failed	0 skipped
+12:43:08.697 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12:43:08.734 
+Total time taken: 19.325s
+12:43:49.735 Checking updates...
+12:43:56.069 # Gridlastic Registration Test Specification
+12:43:56.070 ## Gridlastic Registration Testing Scenario
+12:43:56.072 * Setting up environment to run Android in Appium
+12:44:13.528 * Navigate to Gridlastic Registration Page
+12:44:14.353 
+Failed Step: Navigate to Gridlastic Registration Page
+12:44:14.353 Specification: specs\GridlasticRegistration.spec:9
+12:44:14.353 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//android.widget.EditText[@placeholder='First Name']"}
+  (Session info: chrome=58.0.3029.83)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 165 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: 98dec6b1-c831-4b46-9ff8-e7f5fb4561c9
+*** Element info: {Using=xpath, value=//android.widget.EditText[@placeholder='First Name']}
+12:44:14.353 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+pages.GridlasticRegistrationPage.<init>(GridlasticRegistrationPage.java:17)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.lang.Class.newInstance(Class.java:442)
+org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:130)
+org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:63)
+scenarios.GridlasticRegistrationScenario.<init>(GridlasticRegistrationScenario.java:22)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.lang.Class.newInstance(Class.java:442)
+com.thoughtworks.gauge.ClassInstanceManager.get(ClassInstanceManager.java:34)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:37)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+12:44:14.354 * Closing the driver
+12:44:16.332 Plugin [Html Report] with pid [11888] has exited
+12:44:16.637 Specifications:	1 executed	0 passed	1 failed	0 skipped
+12:44:16.637 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12:44:16.637 
+Total time taken: 20.386s
+12:47:37.413 Checking updates...
+12:47:42.936 # Gridlastic Registration Test Specification
+12:47:42.937 ## Gridlastic Registration Testing Scenario
+12:47:42.940 * Setting up environment to run Android in Appium
+12:47:56.533 * Navigate to Gridlastic Registration Page
+12:47:57.203 
+Failed Step: Navigate to Gridlastic Registration Page
+12:47:57.203 Specification: specs\GridlasticRegistration.spec:9
+12:47:57.203 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"name","selector":"First Name"}
+  (Session info: chrome=58.0.3029.83)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 156 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: ce76fbb2-854c-4855-9473-2129bc837898
+*** Element info: {Using=name, value=First Name}
+12:47:57.203 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:431)
+io.appium.java_client.DefaultGenericMobileDriver.findElementByName(DefaultGenericMobileDriver.java:75)
+io.appium.java_client.AppiumDriver.findElementByName(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElementByName(AndroidDriver.java:1)
+org.openqa.selenium.By$ByName.findElement(By.java:300)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+pages.GridlasticRegistrationPage.<init>(GridlasticRegistrationPage.java:17)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.lang.Class.newInstance(Class.java:442)
+org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:130)
+org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:63)
+scenarios.GridlasticRegistrationScenario.<init>(GridlasticRegistrationScenario.java:22)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.lang.Class.newInstance(Class.java:442)
+com.thoughtworks.gauge.ClassInstanceManager.get(ClassInstanceManager.java:34)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:37)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+12:47:57.203 * Closing the driver
+12:47:59.164 Plugin [Html Report] with pid [8412] has exited
+12:47:59.367 Specifications:	1 executed	0 passed	1 failed	0 skipped
+12:47:59.367 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12:47:59.367 
+Total time taken: 16.302s
+12:50:52.828 Checking updates...
+12:50:58.656 # Gridlastic Registration Test Specification
+12:50:58.658 ## Gridlastic Registration Testing Scenario
+12:50:58.663 * Setting up environment to run Android in Appium
+12:51:12.298 * Navigate to Gridlastic Registration Page
+12:51:13.206 
+Failed Step: Navigate to Gridlastic Registration Page
+12:51:13.206 Specification: specs\GridlasticRegistration.spec:9
+12:51:13.206 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='android.widget.EditText' and @index='1']"}
+  (Session info: chrome=58.0.3029.83)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 429 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: 22a2941e-c15d-42d3-9b87-0c82d84246de
+*** Element info: {Using=xpath, value=//*[@class='android.widget.EditText' and @index='1']}
+12:51:13.206 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+pages.GridlasticRegistrationPage.<init>(GridlasticRegistrationPage.java:17)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.lang.Class.newInstance(Class.java:442)
+org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:130)
+org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:63)
+scenarios.GridlasticRegistrationScenario.<init>(GridlasticRegistrationScenario.java:22)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.lang.Class.newInstance(Class.java:442)
+com.thoughtworks.gauge.ClassInstanceManager.get(ClassInstanceManager.java:34)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:37)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+12:51:13.207 * Closing the driver
+12:51:15.119 Plugin [Html Report] with pid [15900] has exited
+12:51:15.320 Specifications:	1 executed	0 passed	1 failed	0 skipped
+12:51:15.320 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12:51:15.320 
+Total time taken: 16.486s
+12:52:18.777 Checking updates...
+12:52:24.520 # Gridlastic Registration Test Specification
+12:52:24.521 ## Gridlastic Registration Testing Scenario
+12:52:24.523 * Setting up environment to run Android in Appium
+12:52:37.744 * Navigate to Gridlastic Registration Page
+12:52:38.529 
+Failed Step: Navigate to Gridlastic Registration Page
+12:52:38.529 Specification: specs\GridlasticRegistration.spec:9
+12:52:38.529 Error Message: org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //[@class='android.widget.EditText' and @index='1'] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//[@class='android.widget.EditText' and @index='1']' is not a valid XPath expression.
+  (Session info: chrome=58.0.3029.83)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 304 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: a22cf5e0-e7ba-4509-82a6-0afd31889f12
+*** Element info: {Using=xpath, value=//[@class='android.widget.EditText' and @index='1']}
+12:52:38.529 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+pages.GridlasticRegistrationPage.<init>(GridlasticRegistrationPage.java:17)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.lang.Class.newInstance(Class.java:442)
+org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:130)
+org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:63)
+scenarios.GridlasticRegistrationScenario.<init>(GridlasticRegistrationScenario.java:22)
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+java.lang.Class.newInstance(Class.java:442)
+com.thoughtworks.gauge.ClassInstanceManager.get(ClassInstanceManager.java:34)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:37)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+12:52:38.530 * Closing the driver
+12:52:40.369 Plugin [Html Report] with pid [12684] has exited
+12:52:40.571 Specifications:	1 executed	0 passed	1 failed	0 skipped
+12:52:40.571 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12:52:40.571 
+Total time taken: 15.854s
+13:12:36.462 Checking updates...
+13:12:41.892 # Gridlastic Registration Test Specification
+13:12:41.893 ## Gridlastic Registration Testing Scenario
+13:12:41.896 * Setting up environment to run Android in Appium
+13:12:55.454 * Navigate to Gridlastic Registration Page
+13:12:59.633 * Validate the Gridlastic Registration Page title
+
+13:12:59.637 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+
+13:13:16.980 
+Failed Step: Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+13:13:16.980 Specification: specs\GridlasticRegistration.spec:16
+13:13:16.980 Error Message: org.openqa.selenium.TimeoutException: Timed out after 15 seconds waiting for element to be clickable: Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@67933561
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: e0070945-7b89-4343-af25-903a5a929002
+13:13:16.980 Stacktrace: 
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+pages.BasePage.waitForElement(BasePage.java:16)
+pages.GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:37)
+scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:41)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+13:13:16.980 * Closing the driver
+13:13:18.933 Plugin [Html Report] with pid [11684] has exited
+13:13:19.134 Specifications:	1 executed	0 passed	1 failed	0 skipped
+13:13:19.134 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+13:13:19.134 
+Total time taken: 37.041s
+16:01:09.292 Checking updates...
+16:01:21.376 # Gridlastic Registration Test Specification
+16:01:21.377 ## Gridlastic Registration Testing Scenario
+16:01:21.380 * Setting up environment to run Android in Appium
+16:01:48.025 * Navigate to Gridlastic Registration Page
+16:01:51.943 * Validate the Gridlastic Registration Page title
+
+16:01:51.945 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+
+16:02:09.464 * Closing the driver
+16:02:13.204 Plugin [Html Report] with pid [10052] has exited
+16:02:13.607 Specifications:	1 executed	1 passed	0 failed	0 skipped
+16:02:13.607 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+16:02:13.652 
+Total time taken: 53.415s
+16:10:28.840 Checking updates...
+16:10:56.138 # Gridlastic Registration Test Specification
+16:10:56.140 ## Gridlastic Registration Testing Scenario
+16:10:56.142 * Setting up environment to run Android in Appium
+16:11:29.944 * Navigate to Gridlastic Registration Page
+16:11:33.756 * Validate the Gridlastic Registration Page title
+
+16:11:33.772 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+
+16:11:44.091 * Closing the driver
+16:11:46.530 Plugin [Html Report] with pid [8448] has exited
+16:11:46.931 Specifications:	1 executed	1 passed	0 failed	0 skipped
+16:11:46.931 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+16:11:46.940 
+Total time taken: 51.833s
+16:12:58.171 Checking updates...
+16:13:10.400 # Gridlastic Registration Test Specification
+16:13:10.402 ## Gridlastic Registration Testing Scenario
+16:13:10.405 * Setting up environment to run Android in Appium
+16:13:40.033 * Navigate to Gridlastic Registration Page
+16:13:43.871 * Validate the Gridlastic Registration Page title
+
+16:13:43.880 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+
+16:13:58.584 * Closing the driver
+16:14:01.186 Plugin [Html Report] with pid [10004] has exited
+16:14:01.495 Specifications:	1 executed	1 passed	0 failed	0 skipped
+16:14:01.495 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+16:14:01.495 
+Total time taken: 51.072s
+17:37:59.394 Checking updates...
+17:38:26.678 # Gridlastic Registration Test Specification
+17:38:26.682 ## Gridlastic Registration Testing Scenario
+17:38:26.688 * Setting up environment to run Android in Appium
+17:39:38.088 * Navigate to Gridlastic Registration Page
+17:39:44.844 * Validate the Gridlastic Registration Page title
+
+17:39:44.969 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+
+17:40:05.169 * Closing the driver
+17:40:18.373 Plugin [Html Report] with pid [5468] did not exit after 4.00 seconds. Forcefully killing it.
+17:40:19.525 Specifications:	1 executed	1 passed	0 failed	0 skipped
+17:40:19.525 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+17:40:19.578 
+Total time taken: 1m48.288s
