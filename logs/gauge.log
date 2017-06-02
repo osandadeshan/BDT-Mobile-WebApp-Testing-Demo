@@ -6657,3 +6657,399 @@ Total time taken: 51.072s
 17:40:19.525 Scenarios:	1 executed	1 passed	0 failed	0 skipped
 17:40:19.578 
 Total time taken: 1m48.288s
+10:11:01.764 Checking updates...
+10:11:17.307 # Gridlastic Registration Test Specification
+10:11:17.308 ## Gridlastic Registration Testing Scenario
+10:11:17.311 * Setting up environment to run Android in Appium
+10:12:15.279 * Navigate to Gridlastic Registration Page
+10:12:19.852 * Validate the Gridlastic Registration Page title
+
+10:12:19.857 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+10:12:33.187 * Validate that the registration result is success
+
+10:12:49.915 
+Failed Step: Validate that the registration result is success
+10:12:49.915 Specification: specs\GridlasticRegistration.spec:16
+10:12:49.915 Error Message: org.openqa.selenium.TimeoutException: Timed out after 15 seconds waiting for visibility of Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@1922438
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: bf125192-8c5b-4763-bcaf-ebc8de96a9df
+10:12:49.915 Stacktrace: 
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+pages.BasePage.waitForElementVisible(BasePage.java:21)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:46)
+scenarios.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:50)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+10:12:49.915 * Closing the driver
+10:12:57.074 Plugin [Html Report] with pid [3304] did not exit after 4.00 seconds. Forcefully killing it.
+10:12:58.176 Specifications:	1 executed	0 passed	1 failed	0 skipped
+10:12:58.176 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+10:12:58.258 
+Total time taken: 1m36.468s
+10:21:18.531 Checking updates...
+10:21:40.830 # Gridlastic Registration Test Specification
+10:21:40.832 ## Gridlastic Registration Testing Scenario
+10:21:40.835 * Setting up environment to run Android in Appium
+10:22:09.741 * Navigate to Gridlastic Registration Page
+10:22:14.142 * Validate the Gridlastic Registration Page title
+
+10:22:14.222 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+10:22:27.528 * Validate that the registration result is success
+
+10:22:43.834 
+Failed Step: Validate that the registration result is success
+10:22:43.834 Specification: specs\GridlasticRegistration.spec:16
+10:22:43.834 Error Message: org.openqa.selenium.TimeoutException: Timed out after 15 seconds waiting for visibility of Proxy element for: org.openqa.selenium.support.pagefactory.DefaultElementLocator@4feeeb3d
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: 5d1b065e-50ba-4a0a-886c-596fb1fa8f3f
+10:22:43.834 Stacktrace: 
+org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
+org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
+pages.BasePage.waitForElementVisible(BasePage.java:21)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:47)
+scenarios.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:50)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+10:22:43.834 * Closing the driver
+10:22:46.413 Plugin [Html Report] with pid [10456] has exited
+10:22:47.015 Specifications:	1 executed	0 passed	1 failed	0 skipped
+10:22:47.015 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+10:22:47.040 
+Total time taken: 1m5.626s
+10:33:19.922 Checking updates...
+10:33:31.874 # Gridlastic Registration Test Specification
+10:33:31.875 ## Gridlastic Registration Testing Scenario
+10:33:31.879 * Setting up environment to run Android in Appium
+10:34:02.070 * Navigate to Gridlastic Registration Page
+10:34:06.912 * Validate the Gridlastic Registration Page title
+
+10:34:06.916 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+10:34:17.763 * Validate that the registration result is success
+
+10:34:33.168 * Closing the driver
+10:34:35.444 Plugin [Html Report] with pid [344] has exited
+10:34:35.746 Specifications:	1 executed	1 passed	0 failed	0 skipped
+10:34:35.746 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+10:34:35.746 
+Total time taken: 1m3.822s
+10:38:39.366 Checking updates...
+10:38:45.254 # Gridlastic Registration Test Specification
+10:38:45.256 ## Gridlastic Registration Testing Scenario
+10:38:45.259 * Setting up environment to run Android in Appium
+10:39:00.060 * Navigate to Gridlastic Registration Page
+10:39:04.861 * Validate the Gridlastic Registration Page title
+
+10:39:04.865 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+10:39:16.281 * Validate that the registration result is success
+
+10:39:32.377 
+Failed Step: Validate that the registration result is success
+10:39:32.377 Specification: specs\GridlasticRegistration.spec:16
+10:39:32.377 Error Message: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='col_full center']/h1"}
+  (Session info: chrome=58.0.3029.83)
+  (Driver info: chromedriver=2.28.455520 (cc17746adff54984afff480136733114c6b3704b),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 69 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{deviceScreenSize=768x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, version=5.1.0, deviceName=192.168.88.101:5555, platform=ANDROID, deviceUDID=192.168.88.101:5555, desired={browserName=chrome, platformName=Android, version=5.1.0, deviceName=My phone, platform=ANDROID}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, deviceModel=Custom Phone - 5.1.0 - API 22 - 768x1280, platformName=Android, deviceManufacturer=unknown}]
+Session ID: edd0b0b5-16dd-4781-a4f6-59df30be1b50
+*** Element info: {Using=xpath, value=//div[@class='col_full center']/h1}
+10:39:32.377 Stacktrace: 
+sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:455)
+io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:99)
+io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+org.openqa.selenium.By$ByXPath.findElement(By.java:358)
+org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:37)
+io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+com.sun.proxy.$Proxy5.isDisplayed(Unknown Source)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:53)
+scenarios.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:50)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+10:39:32.383 * Closing the driver
+10:39:34.459 Plugin [Html Report] with pid [13144] has exited
+10:39:34.763 Specifications:	1 executed	0 passed	1 failed	0 skipped
+10:39:34.763 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+10:39:34.763 
+Total time taken: 49.492s
+10:40:57.667 Checking updates...
+10:41:03.501 # Gridlastic Registration Test Specification
+10:41:03.502 ## Gridlastic Registration Testing Scenario
+10:41:03.506 * Setting up environment to run Android in Appium
+10:49:05.952 Checking updates...
+10:49:11.891 # Gridlastic Registration Test Specification
+10:49:11.892 ## Gridlastic Registration Testing Scenario
+10:49:11.896 * Setting up environment to run Android in Appium
+10:49:34.111 * Navigate to Gridlastic Registration Page
+10:49:39.431 * Validate the Gridlastic Registration Page title
+
+10:49:39.434 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+10:49:51.461 * Validate that the registration result is success
+
+10:50:06.915 * Closing the driver
+10:50:08.929 Plugin [Html Report] with pid [6516] has exited
+10:50:09.233 Specifications:	1 executed	1 passed	0 failed	0 skipped
+10:50:09.233 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+10:50:09.233 
+Total time taken: 57.117s
+10:54:00.752 Checking updates...
+10:54:07.924 # Gridlastic Registration Test Specification
+10:54:07.925 ## Gridlastic Registration Testing Scenario
+10:54:07.928 * Setting up environment to run Android in Appium
+10:54:22.822 * Navigate to Gridlastic Registration Page
+10:54:27.688 * Validate the Gridlastic Registration Page title
+
+10:54:27.696 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+10:54:39.150 * Validate that the registration result is success
+
+10:54:54.846 * Closing the driver
+10:54:57.059 Plugin [Html Report] with pid [11756] has exited
+10:54:57.360 Specifications:	1 executed	1 passed	0 failed	0 skipped
+10:54:57.360 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+10:54:57.360 
+Total time taken: 49.193s
+10:56:46.570 Checking updates...
+10:56:52.254 # Gridlastic Registration Test Specification
+10:56:52.255 ## Gridlastic Registration Testing Scenario
+10:56:52.258 * Setting up environment to run Android in Appium
+10:57:05.580 * Navigate to Gridlastic Registration Page
+10:57:09.966 * Validate the Gridlastic Registration Page title
+
+10:57:09.968 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+10:57:20.014 * Validate that the registration result is success
+
+10:57:35.823 
+Failed Step: Validate that the registration result is success
+10:57:35.823 Specification: specs\GridlasticRegistration.spec:16
+10:57:35.823 Error Message: java.lang.AssertionError: expected [false] but found [true]
+10:57:35.823 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertFalse(Assert.java:63)
+org.testng.Assert.assertFalse(Assert.java:73)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:66)
+scenarios.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:50)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+10:57:35.826 * Closing the driver
+10:57:37.666 Plugin [Html Report] with pid [10948] has exited
+10:57:37.969 Specifications:	1 executed	0 passed	1 failed	0 skipped
+10:57:37.969 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+10:57:37.969 
+Total time taken: 45.431s
+10:58:22.671 Checking updates...
+10:58:28.439 # Gridlastic Registration Test Specification
+10:58:28.440 ## Gridlastic Registration Testing Scenario
+10:58:28.442 * Setting up environment to run Android in Appium
+10:58:54.687 * Navigate to Gridlastic Registration Page
+10:58:59.453 * Validate the Gridlastic Registration Page title
+
+10:58:59.460 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+10:59:12.818 * Validate that the registration result is success
+
+10:59:28.701 
+Failed Step: Validate that the registration result is success
+10:59:28.701 Specification: specs\GridlasticRegistration.spec:16
+10:59:28.701 Error Message: java.lang.AssertionError: expected [true] but found [false]
+10:59:28.701 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:66)
+scenarios.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:50)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+10:59:28.701 * Closing the driver
+10:59:30.570 Plugin [Html Report] with pid [3320] has exited
+10:59:30.872 Specifications:	1 executed	0 passed	1 failed	0 skipped
+10:59:30.872 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+10:59:30.872 
+Total time taken: 1m2.133s
+11:01:06.908 Checking updates...
+11:01:12.152 # Gridlastic Registration Test Specification
+11:01:12.153 ## Gridlastic Registration Testing Scenario
+11:01:12.156 * Setting up environment to run Android in Appium
+11:01:28.750 * Navigate to Gridlastic Registration Page
+11:01:32.885 * Validate the Gridlastic Registration Page title
+
+11:01:32.887 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+11:01:43.955 * Validate that the registration result is success
+
+11:02:00.082 
+Failed Step: Validate that the registration result is success
+11:02:00.082 Specification: specs\GridlasticRegistration.spec:16
+11:02:00.082 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:02:00.082 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
+scenarios.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:50)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:02:00.082 * Closing the driver
+11:02:01.935 Plugin [Html Report] with pid [3944] has exited
+11:02:02.238 Specifications:	1 executed	0 passed	1 failed	0 skipped
+11:02:02.238 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+11:02:02.238 
+Total time taken: 49.875s
+11:03:18.899 Checking updates...
+11:03:24.579 # Gridlastic Registration Test Specification
+11:03:24.580 ## Gridlastic Registration Testing Scenario
+11:03:24.583 * Setting up environment to run Android in Appium
+11:03:49.827 * Navigate to Gridlastic Registration Page
+11:03:53.885 * Validate the Gridlastic Registration Page title
+
+11:03:53.887 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
+11:04:04.954 * Validate that the registration result is success
+
+11:04:20.505 
+Failed Step: Validate that the registration result is success
+11:04:20.505 Specification: specs\GridlasticRegistration.spec:16
+11:04:20.505 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:04:20.505 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:65)
+scenarios.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:50)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:04:20.505 * Closing the driver
+11:04:22.410 Plugin [Html Report] with pid [13192] has exited
+11:04:22.712 Specifications:	1 executed	0 passed	1 failed	0 skipped
+11:04:22.712 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+11:04:22.712 
+Total time taken: 57.842s

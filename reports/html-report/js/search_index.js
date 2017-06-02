@@ -1,0 +1,1 @@
+var index = {"Tags":{},"Specs":{"Gridlastic Registration Test Specification":["specs\\GridlasticRegistration.html"]}};

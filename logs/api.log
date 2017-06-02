@@ -2772,3 +2772,250 @@ able" > >
 17:38:25.956 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to Facebook" parameterizedStepValue:"Navigate to Facebook" > > 
 17:38:25.956 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate that the Google search works for the text <table>" > 
 17:38:25.957 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that the Google search works for the text {}" parameterizedStepValue:"Validate that the Google search works for the text <table>" parameters:"table" > > 
+16:47:24.274 Failed to start execution API Service. GAUGE_API_V2_PORT Environment variable not set 
+16:47:24.317 Watching directory: C:\Users\Osanda\IdeaProjects\BDT_Mobile_WebApp_Testing_Demo\specs
+16:47:24.317 Found 3 files
+16:47:24.377 Initializing concepts cache with 0 concepts
+16:47:24.408 Initializing specs cache with 3 specs
+16:47:24.408 Adding specs from C:\Users\Osanda\IdeaProjects\BDT_Mobile_WebApp_Testing_Demo\specs\SearchTest.spec
+16:47:24.408 Adding specs from C:\Users\Osanda\IdeaProjects\BDT_Mobile_WebApp_Testing_Demo\specs\FacebookLogin.spec
+16:47:24.408 Adding specs from C:\Users\Osanda\IdeaProjects\BDT_Mobile_WebApp_Testing_Demo\specs\GridlasticRegistration.spec
+16:47:24.408 Initializing steps cache with 3 steps
+16:48:20.329 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Setting up environment to run Android in Appium" > 
+16:48:20.330 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Setting up environment to run Android in Appium" parameterizedStepValue:"Setting up environment to run Android in Appium" > > 
+16:48:20.331 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Closing the driver" > 
+16:48:20.332 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Closing the driver" parameterizedStepValue:"Closing the driver" > > 
+16:48:31.819 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to Google" > 
+16:48:31.819 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to Google" parameterizedStepValue:"Navigate to Google" > > 
+16:48:31.819 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to Google" > 
+16:48:31.819 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to Google" parameterizedStepValue:"Navigate to Google" > > 
+16:48:31.820 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate that the Google search works for the text <table>" > 
+16:48:31.820 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that the Google search works for the text {}" parameterizedStepValue:"Validate that the Google search works for the text <table>" parameters:"table" > > 
+16:48:31.820 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate that the Google search works for the text <table>" > 
+16:48:31.820 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that the Google search works for the text {}" parameterizedStepValue:"Validate that the Google search works for the text <table>" parameters:"table" > > 
+16:48:31.860 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to Gridlastic Registration Page" > 
+16:48:31.861 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to Gridlastic Registration Page" parameterizedStepValue:"Navigate to Gridlastic Registration Page" > > 
+16:48:31.861 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to Gridlastic Registration Page" > 
+16:48:31.861 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to Gridlastic Registration Page" parameterizedStepValue:"Navigate to Gridlastic Registration Page" > > 
+16:48:31.861 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate the Gridlastic Registration Page title" > 
+16:48:31.861 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate the Gridlastic Registration Page title" parameterizedStepValue:"Validate the Gridlastic Registration Page title" > > 
+16:48:31.862 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate the Gridlastic Registration Page title" > 
+16:48:31.862 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate the Gridlastic Registration Page title" parameterizedStepValue:"Validate the Gridlastic Registration Page title" > > 
+16:48:31.862 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" > 
+16:48:31.862 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table {}" parameterizedStepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" parameters:"table" > > 
+16:48:31.862 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" > 
+16:48:31.863 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table {}" parameterizedStepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" parameters:"table" > > 
+16:48:31.863 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to Facebook" > 
+16:48:31.863 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to Facebook" parameterizedStepValue:"Navigate to Facebook" > > 
+16:48:31.863 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to Facebook" > 
+16:48:31.863 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to Facebook" parameterizedStepValue:"Navigate to Facebook" > > 
+16:48:31.864 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate the page title" > 
+16:48:31.864 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate the page title" parameterizedStepValue:"Validate the page title" > > 
+16:48:31.864 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate the page title" > 
+16:48:31.864 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate the page title" parameterizedStepValue:"Validate the page title" > > 
+16:48:31.864 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate the facebook login using email address and password <table>" > 
+16:48:31.864 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate the facebook login using email address and password {}" parameterizedStepValue:"Validate the facebook login using email address and password <table>" parameters:"table" > > 
+16:48:31.865 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate the facebook login using email address and password <table>" > 
+16:48:31.865 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate the facebook login using email address and password {}" parameterizedStepValue:"Validate the facebook login using email address and password <table>" parameters:"table" > > 
+16:48:31.871 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>" > 
+16:48:31.871 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table {}" parameterizedStepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>" parameters:"table:/resources/gridlastic_registration_details.csv" > > 
+17:35:53.846 Spec file removed: C:\Users\Osanda\IdeaProjects\BDT_Mobile_WebApp_Testing_Demo\specs\FacebookLogin.spec
+17:35:57.788 Spec file removed: C:\Users\Osanda\IdeaProjects\BDT_Mobile_WebApp_Testing_Demo\specs\SearchTest.spec
+17:36:59.025 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait <seconds> seconds" > 
+17:36:59.025 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait {} seconds" parameterizedStepValue:"Wait <seconds> seconds" parameters:"seconds" > > 
+09:53:53.800 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate the registration result" > 
+09:53:55.406 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate the registration result" parameterizedStepValue:"Validate the registration result" > > 
+09:53:55.592 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate the registration result" > 
+09:53:55.592 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate the registration result" parameterizedStepValue:"Validate the registration result" > > 
+09:54:29.732 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate th registration result" > 
+09:54:29.733 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate th registration result" parameterizedStepValue:"Validate th registration result" > > 
+09:54:30.321 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate tha registration result" > 
+09:54:30.322 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate tha registration result" parameterizedStepValue:"Validate tha registration result" > > 
+09:54:30.964 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate that registration result" > 
+09:54:30.964 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that registration result" parameterizedStepValue:"Validate that registration result" > > 
+09:54:32.742 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate that the registration result" > 
+09:54:32.742 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that the registration result" parameterizedStepValue:"Validate that the registration result" > > 
+09:54:36.460 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate that the registration result " > 
+09:54:36.460 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that the registration result" parameterizedStepValue:"Validate that the registration result" > > 
+09:54:37.550 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate that the registration result is " > 
+09:54:37.550 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that the registration result is" parameterizedStepValue:"Validate that the registration result is" > > 
+09:54:38.079 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate that the registration result is su" > 
+09:54:38.079 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that the registration result is su" parameterizedStepValue:"Validate that the registration result is su" > > 
+09:54:38.525 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate that the registration result is succ" > 
+09:54:38.525 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that the registration result is succ" parameterizedStepValue:"Validate that the registration result is succ" > > 
+09:54:39.374 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate that the registration result is success" > 
+09:54:39.374 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that the registration result is success" parameterizedStepValue:"Validate that the registration result is success" > > 
+09:54:46.821 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+09:54:46.823 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+09:54:46.834 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+09:54:46.841 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+09:54:47.183 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+09:54:47.184 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+09:54:47.186 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+09:54:47.186 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+09:54:47.196 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+09:54:47.196 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+09:54:47.199 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+09:54:47.199 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+09:54:47.265 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+09:54:47.266 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+09:54:47.266 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+09:54:47.266 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+09:54:47.267 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<> 
+09:54:47.267 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<> > 
+09:54:49.119 Spec file removed: C:\Users\Osanda\IdeaProjects\BDT_Mobile_WebApp_Testing_Demo\specs\GridlasticRegistration.spec
+09:54:49.130 Spec file added / modified: C:\Users\Osanda\IdeaProjects\BDT_Mobile_WebApp_Testing_Demo\specs\GridlasticRegistration.spec
+10:11:16.501 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate that the registration result is success" > 
+10:11:16.502 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that the registration result is success" parameterizedStepValue:"Validate that the registration result is success" > > 
+10:11:16.512 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Closing the driver" > 
+10:11:16.513 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Closing the driver" parameterizedStepValue:"Closing the driver" > > 
+10:11:16.513 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Setting up environment to run Android in Appium" > 
+10:11:16.513 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Setting up environment to run Android in Appium" parameterizedStepValue:"Setting up environment to run Android in Appium" > > 
+10:11:16.514 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to Gridlastic Registration Page" > 
+10:11:16.514 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to Gridlastic Registration Page" parameterizedStepValue:"Navigate to Gridlastic Registration Page" > > 
+10:11:16.515 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate the Gridlastic Registration Page title" > 
+10:11:16.515 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate the Gridlastic Registration Page title" parameterizedStepValue:"Validate the Gridlastic Registration Page title" > > 
+10:11:16.515 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" > 
+10:11:16.515 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table {}" parameterizedStepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" parameters:"table" > > 
+10:11:16.517 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait <seconds> seconds" > 
+10:11:16.517 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait {} seconds" parameterizedStepValue:"Wait <seconds> seconds" parameters:"seconds" > > 
+10:21:39.977 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate that the registration result is success" > 
+10:21:39.978 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that the registration result is success" parameterizedStepValue:"Validate that the registration result is success" > > 
+10:21:39.991 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Closing the driver" > 
+10:21:39.991 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Closing the driver" parameterizedStepValue:"Closing the driver" > > 
+10:21:39.991 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Setting up environment to run Android in Appium" > 
+10:21:39.991 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Setting up environment to run Android in Appium" parameterizedStepValue:"Setting up environment to run Android in Appium" > > 
+10:21:39.992 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to Gridlastic Registration Page" > 
+10:21:39.992 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to Gridlastic Registration Page" parameterizedStepValue:"Navigate to Gridlastic Registration Page" > > 
+10:21:39.993 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate the Gridlastic Registration Page title" > 
+10:21:39.993 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate the Gridlastic Registration Page title" parameterizedStepValue:"Validate the Gridlastic Registration Page title" > > 
+10:21:39.993 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" > 
+10:21:39.993 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table {}" parameterizedStepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" parameters:"table" > > 
+10:21:39.996 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait <seconds> seconds" > 
+10:21:39.996 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait {} seconds" parameterizedStepValue:"Wait <seconds> seconds" parameters:"seconds" > > 
+10:33:31.143 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate that the registration result is success" > 
+10:33:31.145 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that the registration result is success" parameterizedStepValue:"Validate that the registration result is success" > > 
+10:33:31.157 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Closing the driver" > 
+10:33:31.157 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Closing the driver" parameterizedStepValue:"Closing the driver" > > 
+10:33:31.158 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Setting up environment to run Android in Appium" > 
+10:33:31.158 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Setting up environment to run Android in Appium" parameterizedStepValue:"Setting up environment to run Android in Appium" > > 
+10:33:31.158 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to Gridlastic Registration Page" > 
+10:33:31.159 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to Gridlastic Registration Page" parameterizedStepValue:"Navigate to Gridlastic Registration Page" > > 
+10:33:31.159 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate the Gridlastic Registration Page title" > 
+10:33:31.159 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate the Gridlastic Registration Page title" parameterizedStepValue:"Validate the Gridlastic Registration Page title" > > 
+10:33:31.160 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" > 
+10:33:31.160 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table {}" parameterizedStepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" parameters:"table" > > 
+10:33:31.163 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait <seconds> seconds" > 
+10:33:31.163 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait {} seconds" parameterizedStepValue:"Wait <seconds> seconds" parameters:"seconds" > > 
+10:38:44.789 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate that the registration result is success" > 
+10:38:44.790 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that the registration result is success" parameterizedStepValue:"Validate that the registration result is success" > > 
+10:38:44.802 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Closing the driver" > 
+10:38:44.803 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Closing the driver" parameterizedStepValue:"Closing the driver" > > 
+10:38:44.803 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Setting up environment to run Android in Appium" > 
+10:38:44.803 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Setting up environment to run Android in Appium" parameterizedStepValue:"Setting up environment to run Android in Appium" > > 
+10:38:44.803 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to Gridlastic Registration Page" > 
+10:38:44.803 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to Gridlastic Registration Page" parameterizedStepValue:"Navigate to Gridlastic Registration Page" > > 
+10:38:44.804 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate the Gridlastic Registration Page title" > 
+10:38:44.804 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate the Gridlastic Registration Page title" parameterizedStepValue:"Validate the Gridlastic Registration Page title" > > 
+10:38:44.804 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" > 
+10:38:44.804 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table {}" parameterizedStepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" parameters:"table" > > 
+10:38:44.806 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait <seconds> seconds" > 
+10:38:44.806 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait {} seconds" parameterizedStepValue:"Wait <seconds> seconds" parameters:"seconds" > > 
+10:41:03.168 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate that the registration result is success" > 
+10:41:03.169 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that the registration result is success" parameterizedStepValue:"Validate that the registration result is success" > > 
+10:41:03.188 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Closing the driver" > 
+10:41:03.188 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Closing the driver" parameterizedStepValue:"Closing the driver" > > 
+10:41:03.189 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Setting up environment to run Android in Appium" > 
+10:41:03.189 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Setting up environment to run Android in Appium" parameterizedStepValue:"Setting up environment to run Android in Appium" > > 
+10:41:03.189 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to Gridlastic Registration Page" > 
+10:41:03.189 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to Gridlastic Registration Page" parameterizedStepValue:"Navigate to Gridlastic Registration Page" > > 
+10:41:03.190 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate the Gridlastic Registration Page title" > 
+10:41:03.190 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate the Gridlastic Registration Page title" parameterizedStepValue:"Validate the Gridlastic Registration Page title" > > 
+10:41:03.190 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" > 
+10:41:03.190 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table {}" parameterizedStepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" parameters:"table" > > 
+10:41:03.193 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait <seconds> seconds" > 
+10:41:03.193 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait {} seconds" parameterizedStepValue:"Wait <seconds> seconds" parameters:"seconds" > > 
+10:49:11.638 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate that the registration result is success" > 
+10:49:11.639 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that the registration result is success" parameterizedStepValue:"Validate that the registration result is success" > > 
+10:49:11.654 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Closing the driver" > 
+10:49:11.654 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Closing the driver" parameterizedStepValue:"Closing the driver" > > 
+10:49:11.655 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Setting up environment to run Android in Appium" > 
+10:49:11.655 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Setting up environment to run Android in Appium" parameterizedStepValue:"Setting up environment to run Android in Appium" > > 
+10:49:11.655 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to Gridlastic Registration Page" > 
+10:49:11.656 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to Gridlastic Registration Page" parameterizedStepValue:"Navigate to Gridlastic Registration Page" > > 
+10:49:11.656 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate the Gridlastic Registration Page title" > 
+10:49:11.656 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate the Gridlastic Registration Page title" parameterizedStepValue:"Validate the Gridlastic Registration Page title" > > 
+10:49:11.657 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" > 
+10:49:11.657 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table {}" parameterizedStepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" parameters:"table" > > 
+10:49:11.659 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait <seconds> seconds" > 
+10:49:11.659 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait {} seconds" parameterizedStepValue:"Wait <seconds> seconds" parameters:"seconds" > > 
+10:54:07.480 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate that the registration result is success" > 
+10:54:07.481 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that the registration result is success" parameterizedStepValue:"Validate that the registration result is success" > > 
+10:54:07.497 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Closing the driver" > 
+10:54:07.497 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Closing the driver" parameterizedStepValue:"Closing the driver" > > 
+10:54:07.497 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Setting up environment to run Android in Appium" > 
+10:54:07.497 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Setting up environment to run Android in Appium" parameterizedStepValue:"Setting up environment to run Android in Appium" > > 
+10:54:07.498 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to Gridlastic Registration Page" > 
+10:54:07.498 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to Gridlastic Registration Page" parameterizedStepValue:"Navigate to Gridlastic Registration Page" > > 
+10:54:07.499 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate the Gridlastic Registration Page title" > 
+10:54:07.499 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate the Gridlastic Registration Page title" parameterizedStepValue:"Validate the Gridlastic Registration Page title" > > 
+10:54:07.500 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" > 
+10:54:07.500 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table {}" parameterizedStepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" parameters:"table" > > 
+10:54:07.502 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait <seconds> seconds" > 
+10:54:07.502 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait {} seconds" parameterizedStepValue:"Wait <seconds> seconds" parameters:"seconds" > > 
+10:56:52.048 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate that the registration result is success" > 
+10:56:52.049 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that the registration result is success" parameterizedStepValue:"Validate that the registration result is success" > > 
+10:56:52.061 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Closing the driver" > 
+10:56:52.061 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Closing the driver" parameterizedStepValue:"Closing the driver" > > 
+10:56:52.062 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Setting up environment to run Android in Appium" > 
+10:56:52.062 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Setting up environment to run Android in Appium" parameterizedStepValue:"Setting up environment to run Android in Appium" > > 
+10:56:52.062 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to Gridlastic Registration Page" > 
+10:56:52.062 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to Gridlastic Registration Page" parameterizedStepValue:"Navigate to Gridlastic Registration Page" > > 
+10:56:52.063 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate the Gridlastic Registration Page title" > 
+10:56:52.063 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate the Gridlastic Registration Page title" parameterizedStepValue:"Validate the Gridlastic Registration Page title" > > 
+10:56:52.064 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" > 
+10:56:52.064 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table {}" parameterizedStepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" parameters:"table" > > 
+10:56:52.066 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait <seconds> seconds" > 
+10:56:52.066 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait {} seconds" parameterizedStepValue:"Wait <seconds> seconds" parameters:"seconds" > > 
+10:58:28.259 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate that the registration result is success" > 
+10:58:28.260 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that the registration result is success" parameterizedStepValue:"Validate that the registration result is success" > > 
+10:58:28.272 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Closing the driver" > 
+10:58:28.273 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Closing the driver" parameterizedStepValue:"Closing the driver" > > 
+10:58:28.273 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Setting up environment to run Android in Appium" > 
+10:58:28.273 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Setting up environment to run Android in Appium" parameterizedStepValue:"Setting up environment to run Android in Appium" > > 
+10:58:28.274 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to Gridlastic Registration Page" > 
+10:58:28.274 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to Gridlastic Registration Page" parameterizedStepValue:"Navigate to Gridlastic Registration Page" > > 
+10:58:28.275 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate the Gridlastic Registration Page title" > 
+10:58:28.275 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate the Gridlastic Registration Page title" parameterizedStepValue:"Validate the Gridlastic Registration Page title" > > 
+10:58:28.275 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" > 
+10:58:28.275 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table {}" parameterizedStepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" parameters:"table" > > 
+10:58:28.277 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait <seconds> seconds" > 
+10:58:28.278 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait {} seconds" parameterizedStepValue:"Wait <seconds> seconds" parameters:"seconds" > > 
+11:01:11.885 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate that the registration result is success" > 
+11:01:11.886 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that the registration result is success" parameterizedStepValue:"Validate that the registration result is success" > > 
+11:01:11.898 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Closing the driver" > 
+11:01:11.898 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Closing the driver" parameterizedStepValue:"Closing the driver" > > 
+11:01:11.898 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Setting up environment to run Android in Appium" > 
+11:01:11.899 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Setting up environment to run Android in Appium" parameterizedStepValue:"Setting up environment to run Android in Appium" > > 
+11:01:11.899 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to Gridlastic Registration Page" > 
+11:01:11.900 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to Gridlastic Registration Page" parameterizedStepValue:"Navigate to Gridlastic Registration Page" > > 
+11:01:11.901 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate the Gridlastic Registration Page title" > 
+11:01:11.901 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate the Gridlastic Registration Page title" parameterizedStepValue:"Validate the Gridlastic Registration Page title" > > 
+11:01:11.902 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" > 
+11:01:11.902 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table {}" parameterizedStepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" parameters:"table" > > 
+11:01:11.904 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait <seconds> seconds" > 
+11:01:11.904 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait {} seconds" parameterizedStepValue:"Wait <seconds> seconds" parameters:"seconds" > > 
+11:03:24.395 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate that the registration result is success" > 
+11:03:24.396 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate that the registration result is success" parameterizedStepValue:"Validate that the registration result is success" > > 
+11:03:24.408 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Closing the driver" > 
+11:03:24.408 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Closing the driver" parameterizedStepValue:"Closing the driver" > > 
+11:03:24.409 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Setting up environment to run Android in Appium" > 
+11:03:24.409 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Setting up environment to run Android in Appium" parameterizedStepValue:"Setting up environment to run Android in Appium" > > 
+11:03:24.409 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Navigate to Gridlastic Registration Page" > 
+11:03:24.409 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Navigate to Gridlastic Registration Page" parameterizedStepValue:"Navigate to Gridlastic Registration Page" > > 
+11:03:24.410 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Validate the Gridlastic Registration Page title" > 
+11:03:24.410 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Validate the Gridlastic Registration Page title" parameterizedStepValue:"Validate the Gridlastic Registration Page title" > > 
+11:03:24.410 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" > 
+11:03:24.410 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table {}" parameterizedStepValue:"Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>" parameters:"table" > > 
+11:03:24.411 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Wait <seconds> seconds" > 
+11:03:24.411 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Wait {} seconds" parameterizedStepValue:"Wait <seconds> seconds" parameters:"seconds" > > 

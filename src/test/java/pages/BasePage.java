@@ -11,13 +11,18 @@ import static scenarios.AndroidSetup.driver;
 
 public class BasePage {
 
-    public void waitForElement(WebElement element){
+    public void waitForElementClickable(WebElement element){
         WebDriverWait wait = new WebDriverWait(driver, 15);
         wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
+    public void waitForElementVisible(WebElement element){
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+        wait.until(ExpectedConditions.visibilityOf(element));
+    }
+
     public void setTextAs(WebElement element, String text){
-        waitForElement(element);
+        waitForElementClickable(element);
         element.sendKeys(text);
     }
 

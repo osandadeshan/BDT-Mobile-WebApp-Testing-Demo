@@ -5,8 +5,6 @@ import com.thoughtworks.gauge.Step;
 import com.thoughtworks.gauge.Table;
 import com.thoughtworks.gauge.TableRow;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Assert;
-import pages.FacebookLoginPage;
 import pages.GridlasticRegistrationPage;
 
 import java.util.List;
@@ -45,6 +43,11 @@ public class GridlasticRegistrationScenario {
                 e.printStackTrace();
             }
         }
+    }
+
+    @Step("Validate that the registration result is success")
+    public void validationOfRegistration(){
+        gridlasticRegistrationPage.validateRegistrationResult();
     }
 
 }

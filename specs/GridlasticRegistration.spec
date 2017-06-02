@@ -13,7 +13,7 @@ Every heading in this file denotes a scenario. Every bulleted point denotes a st
 Gridlastic Registration Testing Scenario
 ----------------------------------------
 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table:/resources/gridlastic_registration_details.csv>
-
+* Validate that the registration result is success
 
 
 _____________________
