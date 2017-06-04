@@ -6,8 +6,7 @@ import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-
-import static scenarios.AndroidSetup.driver;
+import static utilities.AndroidSetup.driver;
 
 /**
  * Created by Osanda on 5/24/2017.

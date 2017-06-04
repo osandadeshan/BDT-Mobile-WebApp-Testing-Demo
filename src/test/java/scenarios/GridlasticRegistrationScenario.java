@@ -5,11 +5,10 @@ import com.thoughtworks.gauge.Step;
 import com.thoughtworks.gauge.Table;
 import com.thoughtworks.gauge.TableRow;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import pages.GridlasticRegistrationPage;
-
 import java.util.List;
-
-import static scenarios.AndroidSetup.driver;
+import static utilities.AndroidSetup.driver;
 
 /**
  * Created by Osanda on 4/29/2017.
@@ -25,8 +24,8 @@ public class GridlasticRegistrationScenario {
     }
 
     @Step("Validate the Gridlastic Registration Page title")
-    public void validatePageTitle(){
-       // Assert.assertTrue(gridlasticRegistrationPage.pageTitle().equals("Welcome to Gridlastic Registration Page"),"Page title mismatched");
+    public void validatePageTitle() {
+        Assert.assertEquals(gridlasticRegistrationPage.pageTitle(), "Gridlastic Dashboard", "Page title validation is failed");
         System.out.println("Page title validation is passed");
         Gauge.writeMessage("Page title validation is passed");
     }
@@ -42,6 +41,8 @@ public class GridlasticRegistrationScenario {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
+            gridlasticRegistrationPage.validateRegistrationResult();
+            gridlasticRegistrationPage.navigateToGridlasticRegistrationPage();
         }
     }
 

@@ -1,11 +1,10 @@
 package scenarios;
 
 import com.thoughtworks.gauge.Step;
-import org.openqa.selenium.support.PageFactory;
-import pages.BasePage;
+import utilities.AndroidSetup;
 import java.io.IOException;
 import java.net.MalformedURLException;
-import static scenarios.AndroidSetup.driver;
+import static utilities.AndroidSetup.driver;
 
 /**
  * Created by Osanda on 4/29/2017.
@@ -33,6 +32,5 @@ public class BasePageStepImpl {
     public void wait(int seconds) throws InterruptedException {
         Thread.sleep(seconds*1000);
     }
-
 
 }

@@ -3,7 +3,7 @@ package utilities;
 import com.thoughtworks.gauge.screenshot.ICustomScreenshotGrabber;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import static scenarios.AndroidSetup.driver;
+import static utilities.AndroidSetup.driver;
 
 /**
  * Created by Osanda on 5/25/2017.
