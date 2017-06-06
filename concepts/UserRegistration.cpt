@@ -8,3 +8,4 @@ This is a concept file with following syntax for each concept.
 * Navigate to Gridlastic Registration Page
 * Validate the Gridlastic Registration Page title
 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>
+* Validate that the registration result is success

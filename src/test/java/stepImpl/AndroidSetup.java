@@ -1,5 +1,7 @@
-package utilities;
+package stepImpl;
 
+import com.thoughtworks.gauge.AfterSuite;
+import com.thoughtworks.gauge.BeforeSuite;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.Platform;
@@ -8,20 +10,20 @@ import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import java.io.IOException;
 import java.net.URL;
-import static utilities.PropertyReader.readingFromPropertyFile;
 
 /**
  * Created by Osanda on 4/26/2017.
  */
 
-public abstract class AndroidSetup {
+public class AndroidSetup {
 
     public static WebDriver driver;
 
-        public static void prepareAndroidForAppium() throws IOException {
-            String APPIUM_HOST = readingFromPropertyFile("appium_host");
-            String APPIUM_PORT = readingFromPropertyFile("appium_port");
-            String ANDROID_VERSION = readingFromPropertyFile("android_version");
+        @BeforeSuite
+        public void prepareAndroidForAppium() throws IOException {
+            String APPIUM_HOST = System.getenv("appium_host");
+            String APPIUM_PORT = System.getenv("appium_port");
+            String ANDROID_VERSION = System.getenv("android_version");
             String APPIUM_SERVER_URL = "http://" + APPIUM_HOST + ":" + APPIUM_PORT + "/wd/hub";
 
             // Create object of  DesiredCapabilities class and specify android platform
@@ -47,6 +49,12 @@ public abstract class AndroidSetup {
 
             // Create object of  AndroidDriver class and pass the url and capability that we created
              driver = new AndroidDriver(url, capabilities);
+        }
+
+
+        @AfterSuite
+        public void TearDown() {
+            driver.quit();
         }
 
 }

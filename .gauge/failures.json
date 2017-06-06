@@ -3,6 +3,6 @@
 		"-simple-console": "true"
 	},
 	"FailedItems": [
-		"specs\\GridlasticRegistration.spec:13"
+		"specs\\GridlasticRegistration.spec:9"
 	]
 }

@@ -17,8 +17,8 @@ org.testng.Assert.fail(Assert.java:94)
 org.testng.Assert.failNotEquals(Assert.java:494)
 org.testng.Assert.assertTrue(Assert.java:42)
 org.testng.Assert.assertTrue(Assert.java:52)
-pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
-scenarios.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:48)
+GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:48)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -61,8 +61,8 @@ org.testng.Assert.fail(Assert.java:94)
 org.testng.Assert.failNotEquals(Assert.java:494)
 org.testng.Assert.assertTrue(Assert.java:42)
 org.testng.Assert.assertTrue(Assert.java:52)
-pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
-scenarios.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:48)
+GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:48)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -177,8 +177,8 @@ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:155)
 io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:22)
 io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:202)
 io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:50)
-utilities.AndroidSetup.prepareAndroidForAppium(AndroidSetup.java:49)
-scenarios.BasePageStepImpl.setUp(BasePageStepImpl.java:17)
+stepImpl.AndroidSetup.prepareAndroidForAppium(AndroidSetup.java:49)
+stepImpl.BasePageStepImpl.setUp(BasePageStepImpl.java:17)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -202,7 +202,7 @@ Failed Step: Closing the driver
 21:43:18.513 Specification: specs\GridlasticRegistration.spec:27
 21:43:18.513 Error Message: java.lang.NullPointerException
 21:43:18.513 Stacktrace: 
-scenarios.BasePageStepImpl.after(BasePageStepImpl.java:27)
+stepImpl.BasePageStepImpl.after(BasePageStepImpl.java:27)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -251,10 +251,10 @@ Session ID: cce638b6-11a0-4668-acef-58d2572f74d1
 21:44:57.266 Stacktrace: 
 org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
 org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-pages.BasePage.waitForElementClickable(BasePage.java:16)
-pages.BasePage.setTextAs(BasePage.java:25)
-pages.GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:38)
-scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:37)
+BasePage.waitForElementClickable(BasePage.java:16)
+BasePage.setTextAs(BasePage.java:25)
+GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:38)
+stepImpl.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:37)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -304,10 +304,10 @@ Session ID: 21190949-0d28-478a-9a0f-65a720043ba3
 21:47:18.337 Stacktrace: 
 org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
 org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-pages.BasePage.waitForElementClickable(BasePage.java:16)
-pages.BasePage.setTextAs(BasePage.java:25)
-pages.GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:38)
-scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:37)
+BasePage.waitForElementClickable(BasePage.java:16)
+BasePage.setTextAs(BasePage.java:25)
+GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:38)
+stepImpl.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:37)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -357,10 +357,10 @@ Session ID: aadf06f8-1c87-4e98-af3b-03f1cc651c5c
 21:50:00.870 Stacktrace: 
 org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
 org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-pages.BasePage.waitForElementClickable(BasePage.java:16)
-pages.BasePage.setTextAs(BasePage.java:25)
-pages.GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:38)
-scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:37)
+BasePage.waitForElementClickable(BasePage.java:16)
+BasePage.setTextAs(BasePage.java:25)
+GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:38)
+stepImpl.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:37)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -411,10 +411,10 @@ Session ID: 250a5897-d7a6-42c2-a702-5d05c9d3bf1f
 21:52:16.739 Stacktrace: 
 org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
 org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-pages.BasePage.waitForElementClickable(BasePage.java:16)
-pages.BasePage.setTextAs(BasePage.java:25)
-pages.GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:38)
-scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:37)
+BasePage.waitForElementClickable(BasePage.java:16)
+BasePage.setTextAs(BasePage.java:25)
+GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:38)
+stepImpl.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:37)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -481,8 +481,8 @@ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:155)
 io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:22)
 io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:202)
 io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:50)
-utilities.AndroidSetup.prepareAndroidForAppium(AndroidSetup.java:49)
-scenarios.BasePageStepImpl.setUp(BasePageStepImpl.java:17)
+stepImpl.AndroidSetup.prepareAndroidForAppium(AndroidSetup.java:49)
+stepImpl.BasePageStepImpl.setUp(BasePageStepImpl.java:17)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -506,8 +506,8 @@ Failed Step: Navigate to Gridlastic Registration Page
 22:11:41.071 Specification: specs\GridlasticRegistration.spec:26
 22:11:41.071 Error Message: java.lang.NullPointerException
 22:11:41.071 Stacktrace: 
-pages.GridlasticRegistrationPage.navigateToGridlasticRegistrationPage(GridlasticRegistrationPage.java:28)
-scenarios.GridlasticRegistrationScenario.goToFacebook(GridlasticRegistrationScenario.java:22)
+GridlasticRegistrationPage.navigateToGridlasticRegistrationPage(GridlasticRegistrationPage.java:28)
+stepImpl.GridlasticRegistrationScenario.goToFacebook(GridlasticRegistrationScenario.java:22)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -559,8 +559,8 @@ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:155)
 io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:22)
 io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:202)
 io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:50)
-utilities.AndroidSetup.prepareAndroidForAppium(AndroidSetup.java:49)
-scenarios.BasePageStepImpl.setUp(BasePageStepImpl.java:17)
+stepImpl.AndroidSetup.prepareAndroidForAppium(AndroidSetup.java:49)
+stepImpl.BasePageStepImpl.setUp(BasePageStepImpl.java:17)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -584,8 +584,8 @@ Failed Step: Navigate to Gridlastic Registration Page
 22:12:01.837 Specification: specs\GridlasticRegistration.spec:26
 22:12:01.837 Error Message: java.lang.NullPointerException
 22:12:01.837 Stacktrace: 
-pages.GridlasticRegistrationPage.navigateToGridlasticRegistrationPage(GridlasticRegistrationPage.java:28)
-scenarios.GridlasticRegistrationScenario.goToFacebook(GridlasticRegistrationScenario.java:22)
+GridlasticRegistrationPage.navigateToGridlasticRegistrationPage(GridlasticRegistrationPage.java:28)
+stepImpl.GridlasticRegistrationScenario.goToFacebook(GridlasticRegistrationScenario.java:22)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -634,10 +634,10 @@ Session ID: 730c4cec-fad6-4d48-b635-f5592acfb427
 22:13:46.876 Stacktrace: 
 org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
 org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-pages.BasePage.waitForElementClickable(BasePage.java:16)
-pages.BasePage.setTextAs(BasePage.java:25)
-pages.GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:38)
-scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:37)
+BasePage.waitForElementClickable(BasePage.java:16)
+BasePage.setTextAs(BasePage.java:25)
+GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:38)
+stepImpl.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:37)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -688,10 +688,10 @@ Session ID: 2d6cfdb1-efa3-42b1-a825-460b7dd4e33c
 22:16:27.771 Stacktrace: 
 org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
 org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-pages.BasePage.waitForElementClickable(BasePage.java:16)
-pages.BasePage.setTextAs(BasePage.java:25)
-pages.GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:38)
-scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:37)
+BasePage.waitForElementClickable(BasePage.java:16)
+BasePage.setTextAs(BasePage.java:25)
+GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:38)
+stepImpl.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:37)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -740,8 +740,8 @@ org.testng.Assert.fail(Assert.java:94)
 org.testng.Assert.failNotEquals(Assert.java:494)
 org.testng.Assert.assertTrue(Assert.java:42)
 org.testng.Assert.assertTrue(Assert.java:52)
-pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
-scenarios.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:49)
+GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:49)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -788,8 +788,8 @@ org.testng.Assert.fail(Assert.java:94)
 org.testng.Assert.failNotEquals(Assert.java:494)
 org.testng.Assert.assertTrue(Assert.java:42)
 org.testng.Assert.assertTrue(Assert.java:52)
-pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
-scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
+GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
+stepImpl.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -842,8 +842,8 @@ org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:155)
 io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:22)
 io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:202)
 io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:50)
-utilities.AndroidSetup.prepareAndroidForAppium(AndroidSetup.java:49)
-scenarios.BasePageStepImpl.setUp(BasePageStepImpl.java:17)
+stepImpl.AndroidSetup.prepareAndroidForAppium(AndroidSetup.java:49)
+stepImpl.BasePageStepImpl.setUp(BasePageStepImpl.java:17)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -867,8 +867,8 @@ Failed Step: Navigate to Gridlastic Registration Page
 22:45:27.798 Specification: specs\GridlasticRegistration.spec:26
 22:45:27.798 Error Message: java.lang.NullPointerException
 22:45:27.798 Stacktrace: 
-pages.GridlasticRegistrationPage.navigateToGridlasticRegistrationPage(GridlasticRegistrationPage.java:28)
-scenarios.GridlasticRegistrationScenario.goToFacebook(GridlasticRegistrationScenario.java:23)
+GridlasticRegistrationPage.navigateToGridlasticRegistrationPage(GridlasticRegistrationPage.java:28)
+stepImpl.GridlasticRegistrationScenario.goToFacebook(GridlasticRegistrationScenario.java:23)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -914,8 +914,8 @@ org.testng.Assert.fail(Assert.java:94)
 org.testng.Assert.failNotEquals(Assert.java:494)
 org.testng.Assert.assertTrue(Assert.java:42)
 org.testng.Assert.assertTrue(Assert.java:52)
-pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
-scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
+GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
+stepImpl.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -965,10 +965,10 @@ Session ID: d848b7db-bb4f-474d-b055-dcd32e3f070f
 22:50:52.808 Stacktrace: 
 org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
 org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-pages.BasePage.waitForElementClickable(BasePage.java:16)
-pages.BasePage.setTextAs(BasePage.java:25)
-pages.GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:38)
-scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:38)
+BasePage.waitForElementClickable(BasePage.java:16)
+BasePage.setTextAs(BasePage.java:25)
+GridlasticRegistrationPage.register(GridlasticRegistrationPage.java:38)
+stepImpl.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:38)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1015,8 +1015,8 @@ org.testng.Assert.fail(Assert.java:94)
 org.testng.Assert.failNotEquals(Assert.java:494)
 org.testng.Assert.assertTrue(Assert.java:42)
 org.testng.Assert.assertTrue(Assert.java:52)
-pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
-scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
+GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
+stepImpl.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1064,8 +1064,8 @@ org.testng.Assert.fail(Assert.java:94)
 org.testng.Assert.failNotEquals(Assert.java:494)
 org.testng.Assert.assertTrue(Assert.java:42)
 org.testng.Assert.assertTrue(Assert.java:52)
-pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
-scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
+GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
+stepImpl.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1112,8 +1112,8 @@ org.testng.Assert.fail(Assert.java:94)
 org.testng.Assert.failNotEquals(Assert.java:494)
 org.testng.Assert.assertTrue(Assert.java:42)
 org.testng.Assert.assertTrue(Assert.java:52)
-pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
-scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
+GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
+stepImpl.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1160,8 +1160,8 @@ org.testng.Assert.fail(Assert.java:94)
 org.testng.Assert.failNotEquals(Assert.java:494)
 org.testng.Assert.assertTrue(Assert.java:42)
 org.testng.Assert.assertTrue(Assert.java:52)
-pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
-scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
+GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
+stepImpl.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1209,8 +1209,8 @@ org.testng.Assert.fail(Assert.java:94)
 org.testng.Assert.failNotEquals(Assert.java:494)
 org.testng.Assert.assertTrue(Assert.java:42)
 org.testng.Assert.assertTrue(Assert.java:52)
-pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
-scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
+GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
+stepImpl.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1258,8 +1258,8 @@ org.testng.Assert.fail(Assert.java:94)
 org.testng.Assert.failNotEquals(Assert.java:494)
 org.testng.Assert.assertTrue(Assert.java:42)
 org.testng.Assert.assertTrue(Assert.java:52)
-pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
-scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
+GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
+stepImpl.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1307,8 +1307,8 @@ org.testng.Assert.fail(Assert.java:94)
 org.testng.Assert.failNotEquals(Assert.java:494)
 org.testng.Assert.assertTrue(Assert.java:42)
 org.testng.Assert.assertTrue(Assert.java:52)
-pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:65)
-scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
+GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:65)
+stepImpl.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1356,8 +1356,8 @@ org.testng.Assert.fail(Assert.java:94)
 org.testng.Assert.failNotEquals(Assert.java:494)
 org.testng.Assert.assertTrue(Assert.java:42)
 org.testng.Assert.assertTrue(Assert.java:52)
-pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
-scenarios.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
+GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
+stepImpl.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
 sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1382,3 +1382,188 @@ java.lang.Thread.run(Thread.java:745)
 23:15:12.400 Scenarios:	1 executed	0 passed	1 failed	0 skipped
 23:15:12.400 
 Total time taken: 52.574s
+00:47:25.715 Checking updates...
+00:47:47.206 # Gridlastic Registration Test Specification
+00:47:47.207 ## Gridlastic Registration Testing Scenario
+00:47:47.212 * Validate the registraion of a user using First Name, Last Name, Comapany, Work Email, Username and Password in the following table 
+
+     |First Name|Last Name    |Comapany |Work Email                   |Username      |Password |
+     |----------|-------------|---------|-----------------------------|--------------|---------|
+     |Osanda    |Deshan       |MaxSoft  |osanda.deshan16@maxsoft.com  |osandadeshan16|Osanda@92|
+     |Gemunu    |Priyadarshana|Gemunu.lk|gpriyadarshana21@gemunulk.com|gemunulk21    |Gemunu@89|
+     |Eranga    |Heshan       |eyeSoft  |eranga.heshan20@eyesoft.com  |erangaheshan20|Eranga@93|
+00:47:47.212 * Navigate to Gridlastic Registration Page
+00:47:53.571 * Validate the Gridlastic Registration Page title
+00:47:54.077 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>
+00:48:23.241 
+Failed Step: Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>
+00:48:23.241 Specification: specs\GridlasticRegistration.spec
+00:48:23.241 Error Message: java.lang.AssertionError: expected [true] but found [false]
+00:48:23.241 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
+stepImpl.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+00:48:28.164 Plugin [Html Report] with pid [17996] has exited
+00:48:28.669 Specifications:	1 executed	0 passed	1 failed	0 skipped
+00:48:28.669 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+00:48:28.704 
+Total time taken: 54.038s
+11:47:34.850 Checking updates...
+11:48:02.102 # Gridlastic Registration Test Specification
+11:48:02.104 ## Gridlastic Registration Testing Scenario
+11:48:02.108 * Validate the registraion of a user using First Name, Last Name, Comapany, Work Email, Username and Password in the following table 
+
+     |First Name|Last Name    |Comapany |Work Email                   |Username      |Password |
+     |----------|-------------|---------|-----------------------------|--------------|---------|
+     |Osanda    |Deshan       |MaxSoft  |osanda.deshan16@maxsoft.com  |osandadeshan16|Osanda@92|
+     |Gemunu    |Priyadarshana|Gemunu.lk|gpriyadarshana21@gemunulk.com|gemunulk21    |Gemunu@89|
+     |Eranga    |Heshan       |eyeSoft  |eranga.heshan20@eyesoft.com  |erangaheshan20|Eranga@93|
+11:48:02.108 * Navigate to Gridlastic Registration Page
+11:48:06.605 * Validate the Gridlastic Registration Page title
+11:48:06.933 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>
+11:48:35.828 
+Failed Step: Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>
+11:48:35.828 Specification: specs\GridlasticRegistration.spec
+11:48:35.828 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:48:35.828 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
+stepImpl.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:48:37.830 Plugin [Html Report] with pid [14772] has exited
+11:48:37.931 Specifications:	1 executed	0 passed	1 failed	0 skipped
+11:48:37.931 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+11:48:37.931 
+Total time taken: 55.635s
+11:54:14.051 Checking updates...
+11:54:29.362 # Gridlastic Registration Test Specification
+11:54:29.363 ## Gridlastic Registration Testing Scenario
+11:54:29.367 * Validate the registraion of a user using First Name, Last Name, Comapany, Work Email, Username and Password in the following table 
+
+     |First Name|Last Name    |Comapany |Work Email                   |Username      |Password |
+     |----------|-------------|---------|-----------------------------|--------------|---------|
+     |Osanda    |Deshan       |MaxSoft  |osanda.deshan16@maxsoft.com  |osandadeshan16|Osanda@92|
+     |Gemunu    |Priyadarshana|Gemunu.lk|gpriyadarshana21@gemunulk.com|gemunulk21    |Gemunu@89|
+     |Eranga    |Heshan       |eyeSoft  |eranga.heshan20@eyesoft.com  |erangaheshan20|Eranga@93|
+11:54:29.367 * Navigate to Gridlastic Registration Page
+11:54:34.591 * Validate the Gridlastic Registration Page title
+11:54:34.770 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>
+11:55:03.336 
+Failed Step: Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>
+11:55:03.336 Specification: specs\GridlasticRegistration.spec
+11:55:03.336 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:55:03.336 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:64)
+stepImpl.GridlasticRegistrationScenario.validateGridlasticRegistration(GridlasticRegistrationScenario.java:44)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:55:05.166 Plugin [Html Report] with pid [10996] has exited
+11:55:05.368 Specifications:	1 executed	0 passed	1 failed	0 skipped
+11:55:05.368 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+11:55:05.368 
+Total time taken: 48.445s
+12:07:36.240 Checking updates...
+12:07:54.909 # Gridlastic Registration Test Specification
+12:07:54.911 ## Gridlastic Registration Testing Scenario
+12:07:54.914 * Validate the registraion of a user using First Name, Last Name, Comapany, Work Email, Username and Password in the following table 
+
+     |First Name|Last Name    |Comapany |Work Email                   |Username      |Password |
+     |----------|-------------|---------|-----------------------------|--------------|---------|
+     |Osanda    |Deshan       |MaxSoft  |osanda.deshan16@maxsoft.com  |osandadeshan16|Osanda@92|
+     |Gemunu    |Priyadarshana|Gemunu.lk|gpriyadarshana21@gemunulk.com|gemunulk21    |Gemunu@89|
+     |Eranga    |Heshan       |eyeSoft  |eranga.heshan20@eyesoft.com  |erangaheshan20|Eranga@93|
+12:07:54.914 * Navigate to Gridlastic Registration Page
+12:08:01.660 * Validate the Gridlastic Registration Page title
+12:08:01.985 * Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>
+12:08:33.519 * Validate that the registration result is success
+12:08:49.337 
+Failed Step: Validate that the registration result is success
+12:08:49.337 Specification: specs\GridlasticRegistration.spec
+12:08:49.337 Error Message: java.lang.AssertionError: expected [true] but found [false]
+12:08:49.337 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:49)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+12:08:51.276 Plugin [Html Report] with pid [16852] has exited
+12:08:51.378 Specifications:	1 executed	0 passed	1 failed	0 skipped
+12:08:51.378 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12:08:51.378 
+Total time taken: 1m12.168s

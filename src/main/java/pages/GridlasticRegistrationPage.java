@@ -6,13 +6,15 @@ import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-import static utilities.AndroidSetup.driver;
+import stepImpl.AndroidSetup;
 
 /**
  * Created by Osanda on 5/24/2017.
  */
 
 public class GridlasticRegistrationPage extends BasePage {
+
+    public static String GridlasticRegistrationPageUrl = URL.concat("register.php");
     Boolean isVisible = false;
 
    @FindBy(xpath = "//input[@name='fname']") WebElement FIRST_NAME_TEXT_BOX;
@@ -24,14 +26,11 @@ public class GridlasticRegistrationPage extends BasePage {
    @FindBy(xpath = "//button[@type='submit']") WebElement GET_FREE_ACCOUNT_BUTTON;
    @FindBy(xpath = "//div[@class='col_full center']/h1") WebElement VALIDATION_LABEL;
 
-    public void navigateToGridlasticRegistrationPage(){
-        driver.get("https://www.gridlastic.com/register.php");
-    }
 
     public String pageTitle(){
-        System.out.println("Page Title: "+driver.getTitle());
-        Gauge.writeMessage("Page Title: "+driver.getTitle());
-        return driver.getTitle();
+        System.out.println("Page Title: "+ AndroidSetup.driver.getTitle());
+        Gauge.writeMessage("Page Title: "+ AndroidSetup.driver.getTitle());
+        return AndroidSetup.driver.getTitle();
     }
 
     public void register(String fName, String lName, String company, String wEmail, String uName, String pw){

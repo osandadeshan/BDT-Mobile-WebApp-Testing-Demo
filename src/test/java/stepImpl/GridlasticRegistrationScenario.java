@@ -1,4 +1,4 @@
-package scenarios;
+package stepImpl;
 
 import com.thoughtworks.gauge.Gauge;
 import com.thoughtworks.gauge.Step;
@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import pages.GridlasticRegistrationPage;
 import java.util.List;
-import static utilities.AndroidSetup.driver;
+import static stepImpl.AndroidSetup.driver;
 
 /**
  * Created by Osanda on 4/29/2017.
@@ -20,7 +20,7 @@ public class GridlasticRegistrationScenario {
 
     @Step("Navigate to Gridlastic Registration Page")
     public void goToFacebook(){
-        gridlasticRegistrationPage.navigateToGridlasticRegistrationPage();
+        driver.get(GridlasticRegistrationPage.GridlasticRegistrationPageUrl);
     }
 
     @Step("Validate the Gridlastic Registration Page title")
@@ -41,8 +41,6 @@ public class GridlasticRegistrationScenario {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            gridlasticRegistrationPage.validateRegistrationResult();
-            gridlasticRegistrationPage.navigateToGridlasticRegistrationPage();
         }
     }
 
