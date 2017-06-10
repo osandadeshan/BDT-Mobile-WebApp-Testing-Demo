@@ -2,12 +2,9 @@ package stepImpl;
 
 import com.thoughtworks.gauge.Gauge;
 import com.thoughtworks.gauge.Step;
-import com.thoughtworks.gauge.Table;
-import com.thoughtworks.gauge.TableRow;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import pages.GridlasticRegistrationPage;
-import java.util.List;
 import static stepImpl.AndroidSetup.driver;
 
 /**
@@ -30,19 +27,15 @@ public class GridlasticRegistrationScenario {
         Gauge.writeMessage("Page title validation is passed");
     }
 
-    @Step("Register to Gridlastic using First Name, Last Name, Comapany, Work Email, Username and Password in the following table <table>")
-    public void validateGridlasticRegistration(Table table) {
-        List<TableRow> rows = table.getTableRows();
-        List<String> columnNames = table.getColumnNames();
-        for (TableRow row : rows) {
-            gridlasticRegistrationPage.register(row.getCell(columnNames.get(0)), row.getCell(columnNames.get(1)), row.getCell(columnNames.get(2)), row.getCell(columnNames.get(3)), row.getCell(columnNames.get(4)), row.getCell(columnNames.get(5)));
+    @Step("Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table")
+    public void gridlasticRegistration(String First_Name, String Last_Name, String Comapany, String Work_Email, String Username, String Password) {
+            gridlasticRegistrationPage.register(First_Name, Last_Name, Comapany, Work_Email, Username, Password);
             try {
                 Thread.sleep(1000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
-    }
 
     @Step("Validate that the registration result is success")
     public void validationOfRegistration(){

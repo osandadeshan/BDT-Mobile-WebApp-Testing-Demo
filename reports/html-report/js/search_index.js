@@ -1,1 +1,1 @@
-var index = {"Tags":{},"Specs":{"Gridlastic Registration Test Specification":["specs\\GridlasticRegistration.html"]}};
+var index = {"Tags":{},"Specs":{"Register into Gridlastic using a data driven CSV Test Specification":["specs\\Register into Gridlastic using a data driven CSV.html"],"Register into Gridlastic using a data driven table Test Specification":["specs\\Register into Gridlastic using a data driven table.html"]}};

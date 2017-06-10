@@ -1567,3 +1567,1490 @@ java.lang.Thread.run(Thread.java:745)
 12:08:51.378 Scenarios:	1 executed	0 passed	1 failed	0 skipped
 12:08:51.378 
 Total time taken: 1m12.168s
+17:42:55.523 [ParseError] C:\Users\Osanda\IdeaProjects\BDT-Mobile-WebApp-Testing-Demo\specs\NewGridlasticRegistration.spec:18 Dynamic parameter <First_Name> could not be resolved => 'Invalid registration to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table'
+17:42:57.388 Checking updates...
+17:44:08.256 # Gridlastic Registration Test Specification
+17:44:08.303 ## Gridlastic Registration Testing Scenario
+17:44:08.334 * Navigate to Gridlastic Registration Page
+17:44:12.854 * Validate the Gridlastic Registration Page title
+17:44:13.302 * Validate that the registration result is success
+
+17:44:29.685 
+Failed Step: Validate that the registration result is success
+17:44:29.685 Specification: specs\NewGridlasticRegistration.spec:19
+17:44:29.685 Error Message: java.lang.AssertionError: expected [true] but found [false]
+17:44:29.685 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:59)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+17:44:35.656 Plugin [Html Report] with pid [12316] has exited
+17:44:36.659 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:44:36.659 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+17:44:36.699 
+Total time taken: 1m12.646s
+17:45:44.825 Checking updates...
+17:46:31.792 # Gridlastic Registration Test Specification
+17:46:31.813 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password |
+     |----------|---------|--------|---------------------------|--------------|---------|
+     |Osanda    |Deshan   |MaxSoft |osanda.deshan16@maxsoft.com|osandadeshan16|Osanda@92|
+17:46:31.813 ## Gridlastic Registration Testing Scenario
+17:46:31.816 * Navigate to Gridlastic Registration Page
+17:46:36.425 * Validate the Gridlastic Registration Page title
+17:46:36.893 * Invalid registration to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+17:46:49.677 * Validate that the registration result is success
+
+17:47:05.619 
+Failed Step: Validate that the registration result is success
+17:47:05.619 Specification: specs\NewGridlasticRegistration.spec:19
+17:47:05.619 Error Message: java.lang.AssertionError: expected [true] but found [false]
+17:47:05.619 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:59)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+17:47:05.621 
+     |First_Name|Last_Name    |Comapany |Work_Email                   |Username  |Password |
+     |----------|-------------|---------|-----------------------------|----------|---------|
+     |Gemunu    |Priyadarshana|Gemunu.lk|gpriyadarshana21@gemunulk.com|gemunulk21|Gemunu@89|
+17:47:05.622 ## Gridlastic Registration Testing Scenario
+17:47:05.622 * Navigate to Gridlastic Registration Page
+17:47:07.071 * Validate the Gridlastic Registration Page title
+17:47:07.227 * Invalid registration to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+17:47:19.439 * Validate that the registration result is success
+
+17:47:35.027 
+Failed Step: Validate that the registration result is success
+17:47:35.027 Specification: specs\NewGridlasticRegistration.spec:19
+17:47:35.027 Error Message: java.lang.AssertionError: expected [true] but found [false]
+17:47:35.028 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:59)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+17:47:35.058 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password |
+     |----------|---------|--------|---------------------------|--------------|---------|
+     |Eranga    |Heshan   |eyeSoft |eranga.heshan20@eyesoft.com|erangaheshan20|Eranga@93|
+17:47:35.058 ## Gridlastic Registration Testing Scenario
+17:47:35.059 * Navigate to Gridlastic Registration Page
+17:47:36.369 * Validate the Gridlastic Registration Page title
+17:47:36.708 * Invalid registration to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+17:48:06.357 * Validate that the registration result is success
+
+17:48:09.357 Plugin [Html Report] with pid [11100] has exited
+17:48:09.859 Specifications:	1 executed	0 passed	1 failed	0 skipped
+17:48:09.859 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+17:48:09.898 
+Total time taken: 2m8.393s
+10:45:57.275 Checking updates...
+10:46:32.137 # Gridlastic Registration Test Specification
+10:46:32.139 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password |
+     |----------|---------|--------|---------------------------|--------------|---------|
+     |Osanda    |Deshan   |MaxSoft |osanda.deshan16@maxsoft.com|osandadeshan16|Osanda@92|
+10:46:32.139 ## Gridlastic Registration Testing Scenario
+10:46:32.141 * Navigate to Gridlastic Registration Page
+10:46:37.772 * Validate the Gridlastic Registration Page title
+10:46:38.201 * Invalid registration to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+10:46:50.821 * Validate that the registration result is success
+
+10:47:06.845 
+Failed Step: Validate that the registration result is success
+10:47:06.845 Specification: specs\NewGridlasticRegistration.spec:19
+10:47:06.845 Error Message: java.lang.AssertionError: expected [true] but found [false]
+10:47:06.845 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:59)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+10:47:06.848 
+     |First_Name|Last_Name    |Comapany |Work_Email                   |Username  |Password |
+     |----------|-------------|---------|-----------------------------|----------|---------|
+     |Gemunu    |Priyadarshana|Gemunu.lk|gpriyadarshana21@gemunulk.com|gemunulk21|Gemunu@89|
+10:47:06.848 ## Gridlastic Registration Testing Scenario
+10:47:06.849 * Navigate to Gridlastic Registration Page
+10:47:08.838 * Validate the Gridlastic Registration Page title
+10:47:09.166 * Invalid registration to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+10:47:22.179 * Validate that the registration result is success
+
+10:47:38.241 
+Failed Step: Validate that the registration result is success
+10:47:38.241 Specification: specs\NewGridlasticRegistration.spec:19
+10:47:38.241 Error Message: java.lang.AssertionError: expected [true] but found [false]
+10:47:38.241 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:59)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+10:47:38.242 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password |
+     |----------|---------|--------|---------------------------|--------------|---------|
+     |Eranga    |Heshan   |eyeSoft |eranga.heshan20@eyesoft.com|erangaheshan20|Eranga@93|
+10:47:38.242 ## Gridlastic Registration Testing Scenario
+10:47:38.242 * Navigate to Gridlastic Registration Page
+10:47:40.125 * Validate the Gridlastic Registration Page title
+10:47:40.290 * Invalid registration to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+10:47:52.423 * Validate that the registration result is success
+
+10:48:08.042 
+Failed Step: Validate that the registration result is success
+10:48:08.042 Specification: specs\NewGridlasticRegistration.spec:19
+10:48:08.042 Error Message: java.lang.AssertionError: expected [true] but found [false]
+10:48:08.042 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:59)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+10:48:10.308 Plugin [Html Report] with pid [8888] has exited
+10:48:10.511 Specifications:	1 executed	0 passed	1 failed	0 skipped
+10:48:10.511 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+10:48:10.511 
+Total time taken: 1m57.563s
+10:55:57.466 [ParseError] C:\Users\Osanda\IdeaProjects\BDT-Mobile-WebApp-Testing-Demo\specs\NewGridlasticRegistration.spec:21 Dynamic parameter <First_Name> could not be resolved => 'Invalid registration to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table'
+10:55:59.141 Checking updates...
+10:56:19.919 Plugin [Html Report] with pid [6408] has exited
+10:56:20.123 Specifications:	1 executed	0 passed	1 failed	0 skipped
+10:56:20.123 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+10:56:20.123 
+Total time taken: 15.294s
+10:57:59.268 Checking updates...
+10:58:19.170 # Gridlastic Registration Test Specification
+10:58:19.173 
+     |First_Name|Last_Name|Comapany|Work_Email              |Username    |Password |
+     |----------|---------|--------|------------------------|------------|---------|
+     |Osanda    |Deshan   |MaxSoft |osanda.deshan@mitrai.com|osandadeshan|Osanda@92|
+10:58:19.173 ## Gridlastic Registration Testing Scenario
+10:58:19.176 * Navigate to Gridlastic Registration Page
+10:58:24.096 * Validate the Gridlastic Registration Page title
+10:58:24.547 * Invalid registration to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+10:58:37.054 * Validate that the registration result is success
+
+10:58:53.012 
+Failed Step: Validate that the registration result is success
+10:58:53.012 Specification: specs\NewGridlasticRegistration.spec:22
+10:58:53.012 Error Message: java.lang.AssertionError: expected [true] but found [false]
+10:58:53.012 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:59)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+10:58:53.017 
+     |First_Name|Last_Name    |Comapany |Work_Email                   |Username  |Password |
+     |----------|-------------|---------|-----------------------------|----------|---------|
+     |Gemunu    |Priyadarshana|Gemunu.lk|gpriyadarshana21@gemunulk.com|gemunulk21|Gemunu@89|
+10:58:53.017 ## Gridlastic Registration Testing Scenario
+10:58:53.020 * Navigate to Gridlastic Registration Page
+10:58:54.911 * Validate the Gridlastic Registration Page title
+10:58:55.083 * Invalid registration to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+10:59:07.690 * Validate that the registration result is success
+
+10:59:23.727 
+Failed Step: Validate that the registration result is success
+10:59:23.727 Specification: specs\NewGridlasticRegistration.spec:22
+10:59:23.727 Error Message: java.lang.AssertionError: expected [true] but found [false]
+10:59:23.727 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:59)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+10:59:23.729 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password  |
+     |----------|---------|--------|---------------------------|--------------|----------|
+     |Eranga    |Heshan   |eyeSoft |eranga.heshan20@eyesoft.com|erangaheshan20|Eranga@93||
+10:59:23.729 ## Gridlastic Registration Testing Scenario
+10:59:23.729 * Navigate to Gridlastic Registration Page
+10:59:26.028 * Validate the Gridlastic Registration Page title
+10:59:26.433 * Invalid registration to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+10:59:41.560 * Validate that the registration result is success
+
+10:59:57.412 
+Failed Step: Validate that the registration result is success
+10:59:57.412 Specification: specs\NewGridlasticRegistration.spec:22
+10:59:57.412 Error Message: java.lang.AssertionError: expected [true] but found [false]
+10:59:57.412 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:59)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+10:59:59.868 Plugin [Html Report] with pid [8000] has exited
+11:00:00.073 Specifications:	1 executed	0 passed	1 failed	0 skipped
+11:00:00.073 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+11:00:00.073 
+Total time taken: 1m54.73s
+11:30:33.169 Checking updates...
+11:30:33.175 Failed to download html-report-install.json file: Get https://downloads.getgauge.io/plugin/html-report?l=java&p=html-report,java&o=windows&a=amd64: dial tcp: lookup downloads.getgauge.io: no such host
+11:30:33.180 Failed to download java-install.json file: Get https://downloads.getgauge.io/plugin/java?l=java&p=html-report,java&o=windows&a=amd64: dial tcp: lookup downloads.getgauge.io: no such host
+11:30:56.775 # Register into Gridlastic using a data driven table Test Specification
+11:30:56.777 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password |
+     |----------|---------|--------|---------------------------|--------------|---------|
+     |Osanda    |Deshan   |MaxSoft |osanda.deshan16@maxsoft.com|osandadeshan16|Osanda@92|
+11:30:56.777 ## Gridlastic Registration Testing Scenario
+11:30:56.782 * Navigate to Gridlastic Registration Page
+11:31:01.610 * Validate the Gridlastic Registration Page title
+11:31:02.019 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:31:13.954 * Validate that the registration result is success
+
+11:31:28.880 
+Failed Step: Validate that the registration result is success
+11:31:28.880 Specification: specs\Register into Gridlastic using a data driven table.spec:21
+11:31:28.880 Error Message: Connection closed [127.0.0.1:60310] cause: read tcp 127.0.0.1:60304->127.0.0.1:60310: wsarecv: An existing connection was forcibly closed by the remote host.
+11:31:28.880 Stacktrace: 
+11:31:28.880 Error Message: write tcp 127.0.0.1:60304->127.0.0.1:60310: use of closed network connection
+11:31:28.880 Stacktrace: 
+11:31:28.880 Error Message: write tcp 127.0.0.1:60304->127.0.0.1:60310: use of closed network connection
+11:31:28.880 Stacktrace: 
+11:31:28.881 Failed to initialize spec datastore. Error: write tcp 127.0.0.1:60304->127.0.0.1:60310: use of closed network connection
+11:31:28.881 Failed to initialize spec datastore. Error: write tcp 127.0.0.1:60304->127.0.0.1:60310: use of closed network connection
+11:31:28.881 Failed to initialize spec datastore. Error: write tcp 127.0.0.1:60304->127.0.0.1:60310: use of closed network connection
+11:31:28.881 Failed to initialize spec datastore. Error: write tcp 127.0.0.1:60304->127.0.0.1:60310: use of closed network connection
+11:31:28.881 Failed to initialize spec datastore. Error: write tcp 127.0.0.1:60304->127.0.0.1:60310: use of closed network connection
+11:31:28.881 Error Message: write tcp 127.0.0.1:60304->127.0.0.1:60310: use of closed network connection
+11:31:28.881 Stacktrace: 
+11:32:15.150 Checking updates...
+11:32:24.156 Error Message: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 267 milliseconds
+Build info: version: '2.46.0', revision: '61506a4624b13675f24581e453592342b7485d71', time: '2015-06-04 10:22:50'
+System info: host: 'Mitrai-OsandaN', ip: '192.168.88.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+11:32:24.157 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:27)
+io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:242)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:128)
+org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:155)
+io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:22)
+io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:202)
+io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:50)
+stepImpl.AndroidSetup.prepareAndroidForAppium(AndroidSetup.java:51)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionStartingProcessor.process(SuiteExecutionStartingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:32:24.157 Error Message: java.lang.NullPointerException
+11:32:24.157 Stacktrace: 
+stepImpl.AndroidSetup.TearDown(AndroidSetup.java:57)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.executeHook(HooksExecutor.java:102)
+com.thoughtworks.gauge.execution.HooksExecutor$TaggedHookExecutor.execute(HooksExecutor.java:88)
+com.thoughtworks.gauge.execution.HooksExecutor.execute(HooksExecutor.java:45)
+com.thoughtworks.gauge.processor.MethodExecutionMessageProcessor.executeHooks(MethodExecutionMessageProcessor.java:65)
+com.thoughtworks.gauge.processor.SuiteExecutionEndingProcessor.process(SuiteExecutionEndingProcessor.java:32)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:32:24.264 Plugin [Html Report] with pid [10812] has exited
+11:32:24.722 Specifications:	0 executed	0 passed	0 failed	0 skipped
+11:32:24.722 Scenarios:	0 executed	0 passed	0 failed	0 skipped
+11:32:24.722 
+Total time taken: 2.441s
+11:32:42.749 Checking updates...
+11:33:15.372 # Register into Gridlastic using a data driven table Test Specification
+11:33:15.374 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password |
+     |----------|---------|--------|---------------------------|--------------|---------|
+     |Osanda    |Deshan   |MaxSoft |osanda.deshan16@maxsoft.com|osandadeshan16|Osanda@92|
+11:33:15.375 ## Gridlastic Registration Testing Scenario
+11:33:15.378 * Navigate to Gridlastic Registration Page
+11:33:19.995 * Validate the Gridlastic Registration Page title
+11:33:20.367 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:33:33.563 * Validate that the registration result is success
+
+11:33:49.608 
+Failed Step: Validate that the registration result is success
+11:33:49.608 Specification: specs\Register into Gridlastic using a data driven table.spec:21
+11:33:49.608 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:33:49.608 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:33:49.608 
+     |First_Name|Last_Name    |Comapany |Work_Email                   |Username  |Password |
+     |----------|-------------|---------|-----------------------------|----------|---------|
+     |Gemunu    |Priyadarshana|Gemunu.lk|gpriyadarshana21@gemunulk.com|gemunulk21|Gemunu@89|
+11:33:49.608 ## Gridlastic Registration Testing Scenario
+11:33:49.610 * Navigate to Gridlastic Registration Page
+11:33:51.828 * Validate the Gridlastic Registration Page title
+11:33:51.971 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:34:04.537 * Validate that the registration result is success
+
+11:34:20.270 
+Failed Step: Validate that the registration result is success
+11:34:20.270 Specification: specs\Register into Gridlastic using a data driven table.spec:21
+11:34:20.270 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:34:20.270 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:34:20.271 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password |
+     |----------|---------|--------|---------------------------|--------------|---------|
+     |Eranga    |Heshan   |eyeSoft |eranga.heshan20@eyesoft.com|erangaheshan20|Eranga@93|
+11:34:20.271 ## Gridlastic Registration Testing Scenario
+11:34:20.274 * Navigate to Gridlastic Registration Page
+11:34:22.187 * Validate the Gridlastic Registration Page title
+11:34:22.328 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:34:35.558 * Validate that the registration result is success
+
+11:34:51.572 
+Failed Step: Validate that the registration result is success
+11:34:51.572 Specification: specs\Register into Gridlastic using a data driven table.spec:21
+11:34:51.572 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:34:51.572 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:34:51.576 # Register into Gridlastic using a data driven CSV Test Specification
+11:34:51.577 
+     |First_Name|Last_Name|Comapany|Work_Email                |Username      |Password |
+     |----------|---------|--------|--------------------------|--------------|---------|
+     |Osanda    |Deshan   |MaxSoft |osanda.deshan19@mitrai.com|osandadeshan19|Osanda@92|
+11:34:51.577 ## Gridlastic Registration Testing Scenario
+11:34:51.580 * Navigate to Gridlastic Registration Page
+11:34:53.623 * Validate the Gridlastic Registration Page title
+11:34:53.807 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:35:06.476 * Validate that the registration result is success
+
+11:35:22.620 
+Failed Step: Validate that the registration result is success
+11:35:22.620 Specification: specs\Register into Gridlastic using a data driven CSV.spec:17
+11:35:22.620 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:35:22.620 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:35:22.621 
+     |First_Name|Last_Name    |Comapany |Work_Email                   |Username  |Password |
+     |----------|-------------|---------|-----------------------------|----------|---------|
+     |Gemunu    |Priyadarshana|Gemunu.lk|gpriyadarshana25@gemunulk.com|gemunulk25|Gemunu@89|
+11:35:22.621 ## Gridlastic Registration Testing Scenario
+11:35:22.621 * Navigate to Gridlastic Registration Page
+11:35:24.495 * Validate the Gridlastic Registration Page title
+11:35:24.816 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:35:36.832 * Validate that the registration result is success
+
+11:35:52.748 
+Failed Step: Validate that the registration result is success
+11:35:52.748 Specification: specs\Register into Gridlastic using a data driven CSV.spec:17
+11:35:52.748 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:35:52.748 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:35:52.748 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password  |
+     |----------|---------|--------|---------------------------|--------------|----------|
+     |Eranga    |Heshan   |eyeSoft |eranga.heshan21@eyesoft.com|erangaheshan21|Eranga@93||
+11:35:52.748 ## Gridlastic Registration Testing Scenario
+11:35:52.749 * Navigate to Gridlastic Registration Page
+11:35:54.663 * Validate the Gridlastic Registration Page title
+11:35:54.979 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:36:14.287 * Validate that the registration result is success
+
+11:36:17.340 Plugin [Html Report] with pid [11208] has exited
+11:36:17.541 Specifications:	2 executed	0 passed	2 failed	0 skipped
+11:36:17.541 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+11:36:17.541 
+Total time taken: 3m29.187s
+11:38:38.988 Checking updates...
+11:38:58.702 # Register into Gridlastic using a data driven table Test Specification
+11:38:58.703 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password |
+     |----------|---------|--------|---------------------------|--------------|---------|
+     |Osanda    |Deshan   |MaxSoft |osanda.deshan16@maxsoft.com|osandadeshan16|Osanda@92|
+11:38:58.704 ## Gridlastic Registration Testing Scenario
+11:38:58.706 * Navigate to Gridlastic Registration Page
+11:39:03.864 * Validate the Gridlastic Registration Page title
+11:39:04.273 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:39:15.640 * Validate that the registration result is success
+
+11:39:31.514 
+Failed Step: Validate that the registration result is success
+11:39:31.514 Specification: specs\Register into Gridlastic using a data driven table.spec:21
+11:39:31.514 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:39:31.514 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:39:31.517 
+     |First_Name|Last_Name    |Comapany |Work_Email                   |Username  |Password |
+     |----------|-------------|---------|-----------------------------|----------|---------|
+     |Gemunu    |Priyadarshana|Gemunu.lk|gpriyadarshana21@gemunulk.com|gemunulk21|Gemunu@89|
+11:39:31.517 ## Gridlastic Registration Testing Scenario
+11:39:31.520 * Navigate to Gridlastic Registration Page
+11:39:33.552 * Validate the Gridlastic Registration Page title
+11:39:33.887 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:39:45.973 * Validate that the registration result is success
+
+11:40:01.677 
+Failed Step: Validate that the registration result is success
+11:40:01.678 Specification: specs\Register into Gridlastic using a data driven table.spec:21
+11:40:01.678 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:40:01.678 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:40:01.679 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password |
+     |----------|---------|--------|---------------------------|--------------|---------|
+     |Eranga    |Heshan   |eyeSoft |eranga.heshan20@eyesoft.com|erangaheshan20|Eranga@93|
+11:40:01.679 ## Gridlastic Registration Testing Scenario
+11:40:01.681 * Navigate to Gridlastic Registration Page
+11:40:03.523 * Validate the Gridlastic Registration Page title
+11:40:03.697 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:40:13.798 * Validate that the registration result is success
+
+11:40:29.607 
+Failed Step: Validate that the registration result is success
+11:40:29.607 Specification: specs\Register into Gridlastic using a data driven table.spec:21
+11:40:29.607 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:40:29.607 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:40:29.609 # Register into Gridlastic using a data driven CSV Test Specification
+11:40:29.612 
+     |First_Name|Last_Name|Comapany|Work_Email                |Username      |Password |
+     |----------|---------|--------|--------------------------|--------------|---------|
+     |Osanda    |Deshan   |MaxSoft |osanda.deshan90@mitrai.com|osandadeshan90|Osanda@92|
+11:40:29.612 ## Gridlastic Registration Testing Scenario
+11:40:29.612 * Navigate to Gridlastic Registration Page
+11:40:31.598 * Validate the Gridlastic Registration Page title
+11:40:31.936 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:40:44.743 * Validate that the registration result is success
+
+11:41:00.406 
+Failed Step: Validate that the registration result is success
+11:41:00.406 Specification: specs\Register into Gridlastic using a data driven CSV.spec:17
+11:41:00.406 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:41:00.406 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:41:00.407 
+     |First_Name|Last_Name    |Comapany |Work_Email                   |Username  |Password |
+     |----------|-------------|---------|-----------------------------|----------|---------|
+     |Gemunu    |Priyadarshana|Gemunu.lk|gpriyadarshana89@gemunulk.com|gemunulk89|Gemunu@89|
+11:41:00.407 ## Gridlastic Registration Testing Scenario
+11:41:00.407 * Navigate to Gridlastic Registration Page
+11:41:02.430 * Validate the Gridlastic Registration Page title
+11:41:02.553 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:41:15.559 * Validate that the registration result is success
+
+11:41:31.258 
+Failed Step: Validate that the registration result is success
+11:41:31.258 Specification: specs\Register into Gridlastic using a data driven CSV.spec:17
+11:41:31.258 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:41:31.258 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:41:31.260 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password |
+     |----------|---------|--------|---------------------------|--------------|---------|
+     |Eranga    |Heshan   |eyeSoft |eranga.heshan22@eyesoft.com|erangaheshan22|Eranga@93|
+11:41:31.260 ## Gridlastic Registration Testing Scenario
+11:41:31.261 * Navigate to Gridlastic Registration Page
+11:41:33.606 * Validate the Gridlastic Registration Page title
+11:41:33.832 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:41:53.016 * Validate that the registration result is success
+
+11:41:55.434 Plugin [Html Report] with pid [10664] has exited
+11:41:55.636 Specifications:	2 executed	0 passed	2 failed	0 skipped
+11:41:55.636 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+11:41:55.636 
+Total time taken: 3m11.49s
+11:43:04.368 Checking updates...
+11:43:36.221 # Register into Gridlastic using a data driven table Test Specification
+11:43:36.224 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password |
+     |----------|---------|--------|---------------------------|--------------|---------|
+     |Osanda    |Deshan   |MaxSoft |osanda.deshan16@maxsoft.com|osandadeshan16|Osanda@92|
+11:43:36.224 ## Gridlastic Registration Testing Scenario
+11:43:36.226 * Navigate to Gridlastic Registration Page
+11:43:42.075 * Validate the Gridlastic Registration Page title
+11:43:42.471 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:43:54.361 * Validate that the registration result is success
+
+11:44:10.561 
+Failed Step: Validate that the registration result is success
+11:44:10.561 Specification: specs\Register into Gridlastic using a data driven table.spec:21
+11:44:10.561 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:44:10.561 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:44:10.565 
+     |First_Name|Last_Name    |Comapany |Work_Email                   |Username  |Password |
+     |----------|-------------|---------|-----------------------------|----------|---------|
+     |Gemunu    |Priyadarshana|Gemunu.lk|gpriyadarshana21@gemunulk.com|gemunulk21|Gemunu@89|
+11:44:10.565 ## Gridlastic Registration Testing Scenario
+11:44:10.566 * Navigate to Gridlastic Registration Page
+11:44:12.639 * Validate the Gridlastic Registration Page title
+11:44:12.800 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:44:26.365 * Validate that the registration result is success
+
+11:44:42.088 
+Failed Step: Validate that the registration result is success
+11:44:42.088 Specification: specs\Register into Gridlastic using a data driven table.spec:21
+11:44:42.088 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:44:42.088 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:44:42.089 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password |
+     |----------|---------|--------|---------------------------|--------------|---------|
+     |Eranga    |Heshan   |eyeSoft |eranga.heshan20@eyesoft.com|erangaheshan20|Eranga@93|
+11:44:42.089 ## Gridlastic Registration Testing Scenario
+11:44:42.089 * Navigate to Gridlastic Registration Page
+11:44:43.960 * Validate the Gridlastic Registration Page title
+11:44:44.100 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:44:56.779 * Validate that the registration result is success
+
+11:45:12.901 
+Failed Step: Validate that the registration result is success
+11:45:12.901 Specification: specs\Register into Gridlastic using a data driven table.spec:21
+11:45:12.901 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:45:12.901 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:45:12.904 # Register into Gridlastic using a data driven CSV Test Specification
+11:45:12.905 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password |
+     |----------|---------|--------|---------------------------|--------------|---------|
+     |Osanda    |Deshan   |MaxSoft |osanda.deshan90@eyesoft.com|osandadeshan90|Osanda@92|
+11:45:12.905 ## Gridlastic Registration Testing Scenario
+11:45:12.911 * Navigate to Gridlastic Registration Page
+11:45:14.707 * Validate the Gridlastic Registration Page title
+11:45:14.841 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:45:32.457 * Validate that the registration result is success
+
+11:45:32.889 
+     |First_Name|Last_Name    |Comapany |Work_Email                  |Username  |Password |
+     |----------|-------------|---------|----------------------------|----------|---------|
+     |Gemunu    |Priyadarshana|Gemunu.lk|gpriyadarshana89@eyesoft.com|gemunulk89|Gemunu@89|
+11:45:32.889 ## Gridlastic Registration Testing Scenario
+11:45:32.890 * Navigate to Gridlastic Registration Page
+11:45:34.824 * Validate the Gridlastic Registration Page title
+11:45:34.971 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:45:49.114 * Validate that the registration result is success
+
+11:45:49.432 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password |
+     |----------|---------|--------|---------------------------|--------------|---------|
+     |Eranga    |Heshan   |eyeSoft |eranga.heshan21@eyesoft.com|erangaheshan21|Eranga@93|
+11:45:49.432 ## Gridlastic Registration Testing Scenario
+11:45:49.432 * Navigate to Gridlastic Registration Page
+11:45:50.348 * Validate the Gridlastic Registration Page title
+11:45:51.030 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:46:04.598 * Validate that the registration result is success
+
+11:46:20.685 
+Failed Step: Validate that the registration result is success
+11:46:20.685 Specification: specs\Register into Gridlastic using a data driven CSV.spec:17
+11:46:20.685 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:46:20.685 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:46:22.701 Plugin [Html Report] with pid [7120] has exited
+11:46:22.904 Specifications:	2 executed	0 passed	2 failed	0 skipped
+11:46:22.904 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+11:46:22.904 
+Total time taken: 3m12.889s
+11:46:48.096 Checking updates...
+11:47:42.449 # Register into Gridlastic using a data driven table Test Specification
+11:47:42.451 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password |
+     |----------|---------|--------|---------------------------|--------------|---------|
+     |Osanda    |Deshan   |MaxSoft |osanda.deshan16@maxsoft.com|osandadeshan16|Osanda@92|
+11:47:42.451 ## Gridlastic Registration Testing Scenario
+11:47:42.453 * Navigate to Gridlastic Registration Page
+11:47:47.706 * Validate the Gridlastic Registration Page title
+11:47:48.027 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:47:59.659 * Validate that the registration result is success
+
+11:48:15.819 
+Failed Step: Validate that the registration result is success
+11:48:15.819 Specification: specs\Register into Gridlastic using a data driven table.spec:21
+11:48:15.819 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:48:15.819 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:48:15.821 
+     |First_Name|Last_Name    |Comapany |Work_Email                   |Username  |Password |
+     |----------|-------------|---------|-----------------------------|----------|---------|
+     |Gemunu    |Priyadarshana|Gemunu.lk|gpriyadarshana21@gemunulk.com|gemunulk21|Gemunu@89|
+11:48:15.821 ## Gridlastic Registration Testing Scenario
+11:48:15.822 * Navigate to Gridlastic Registration Page
+11:48:17.672 * Validate the Gridlastic Registration Page title
+11:48:17.820 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:48:30.753 * Validate that the registration result is success
+
+11:48:46.647 
+Failed Step: Validate that the registration result is success
+11:48:46.647 Specification: specs\Register into Gridlastic using a data driven table.spec:21
+11:48:46.647 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:48:46.647 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:48:46.648 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password |
+     |----------|---------|--------|---------------------------|--------------|---------|
+     |Eranga    |Heshan   |eyeSoft |eranga.heshan20@eyesoft.com|erangaheshan20|Eranga@93|
+11:48:46.648 ## Gridlastic Registration Testing Scenario
+11:48:46.648 * Navigate to Gridlastic Registration Page
+11:48:48.715 * Validate the Gridlastic Registration Page title
+11:48:48.941 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:49:01.648 * Validate that the registration result is success
+
+11:49:17.699 
+Failed Step: Validate that the registration result is success
+11:49:17.699 Specification: specs\Register into Gridlastic using a data driven table.spec:21
+11:49:17.699 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:49:17.699 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:49:17.710 # Register into Gridlastic using a data driven CSV Test Specification
+11:49:17.714 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password |
+     |----------|---------|--------|---------------------------|--------------|---------|
+     |Osanda    |Deshan   |MaxSoft |osanda.deshan90@maxsoft.com|osandadeshan90|Osanda@92|
+11:49:17.714 ## Gridlastic Registration Testing Scenario
+11:49:17.715 * Navigate to Gridlastic Registration Page
+11:49:19.593 * Validate the Gridlastic Registration Page title
+11:49:19.835 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:49:31.558 * Validate that the registration result is success
+
+11:49:47.711 
+Failed Step: Validate that the registration result is success
+11:49:47.711 Specification: specs\Register into Gridlastic using a data driven CSV.spec:17
+11:49:47.711 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:49:47.711 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:49:47.712 
+     |First_Name|Last_Name    |Comapany |Work_Email                  |Username  |Password |
+     |----------|-------------|---------|----------------------------|----------|---------|
+     |Gemunu    |Priyadarshana|Gemunu.lk|gpriyadarshana89@eyesoft.com|gemunulk89|Gemunu@89|
+11:49:47.712 ## Gridlastic Registration Testing Scenario
+11:49:47.712 * Navigate to Gridlastic Registration Page
+11:49:49.637 * Validate the Gridlastic Registration Page title
+11:49:49.859 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:50:00.228 * Validate that the registration result is success
+
+11:50:15.893 
+Failed Step: Validate that the registration result is success
+11:50:15.893 Specification: specs\Register into Gridlastic using a data driven CSV.spec:17
+11:50:15.893 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:50:15.893 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:50:15.894 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password |
+     |----------|---------|--------|---------------------------|--------------|---------|
+     |Eranga    |Heshan   |eyeSoft |eranga.heshan21@eyesoft.com|erangaheshan21|Eranga@93|
+11:50:15.894 ## Gridlastic Registration Testing Scenario
+11:50:15.894 * Navigate to Gridlastic Registration Page
+11:50:17.706 * Validate the Gridlastic Registration Page title
+11:50:18.013 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:50:30.268 * Validate that the registration result is success
+
+11:50:46.154 
+Failed Step: Validate that the registration result is success
+11:50:46.154 Specification: specs\Register into Gridlastic using a data driven CSV.spec:17
+11:50:46.154 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:50:46.154 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:50:48.017 Plugin [Html Report] with pid [1952] has exited
+11:50:48.220 Specifications:	2 executed	0 passed	2 failed	0 skipped
+11:50:48.220 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+11:50:48.220 
+Total time taken: 3m54.907s
+11:51:24.306 Checking updates...
+11:52:14.126 # Register into Gridlastic using a data driven table Test Specification
+11:52:14.128 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password |
+     |----------|---------|--------|---------------------------|--------------|---------|
+     |Osanda    |Deshan   |MaxSoft |osanda.deshan16@maxsoft.com|osandadeshan16|Osanda@92|
+11:52:14.128 ## Gridlastic Registration Testing Scenario
+11:52:14.131 * Navigate to Gridlastic Registration Page
+11:52:19.861 * Validate the Gridlastic Registration Page title
+11:52:20.064 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:52:32.757 * Validate that the registration result is success
+
+11:52:48.580 
+Failed Step: Validate that the registration result is success
+11:52:48.580 Specification: specs\Register into Gridlastic using a data driven table.spec:21
+11:52:48.580 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:52:48.580 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:52:48.584 
+     |First_Name|Last_Name    |Comapany |Work_Email                   |Username  |Password |
+     |----------|-------------|---------|-----------------------------|----------|---------|
+     |Gemunu    |Priyadarshana|Gemunu.lk|gpriyadarshana21@gemunulk.com|gemunulk21|Gemunu@89|
+11:52:48.584 ## Gridlastic Registration Testing Scenario
+11:52:48.584 * Navigate to Gridlastic Registration Page
+11:52:50.579 * Validate the Gridlastic Registration Page title
+11:52:50.900 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:53:06.143 * Validate that the registration result is success
+
+11:53:21.809 
+Failed Step: Validate that the registration result is success
+11:53:21.809 Specification: specs\Register into Gridlastic using a data driven table.spec:21
+11:53:21.809 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:53:21.809 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:53:21.810 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password |
+     |----------|---------|--------|---------------------------|--------------|---------|
+     |Eranga    |Heshan   |eyeSoft |eranga.heshan20@eyesoft.com|erangaheshan20|Eranga@93|
+11:53:21.810 ## Gridlastic Registration Testing Scenario
+11:53:21.813 * Navigate to Gridlastic Registration Page
+11:53:23.761 * Validate the Gridlastic Registration Page title
+11:53:23.911 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:53:35.876 * Validate that the registration result is success
+
+11:53:51.631 
+Failed Step: Validate that the registration result is success
+11:53:51.631 Specification: specs\Register into Gridlastic using a data driven table.spec:21
+11:53:51.631 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:53:51.631 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:53:51.634 # Register into Gridlastic using a data driven CSV Test Specification
+11:53:51.635 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password |
+     |----------|---------|--------|---------------------------|--------------|---------|
+     |Osanda    |Deshan   |MaxSoft |osanda.deshan91@eyesoft.com|osandadeshan91|Osanda@92|
+11:53:51.635 ## Gridlastic Registration Testing Scenario
+11:53:51.643 * Navigate to Gridlastic Registration Page
+11:53:53.457 * Validate the Gridlastic Registration Page title
+11:53:53.773 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:54:14.182 * Validate that the registration result is success
+
+11:54:16.492 
+     |First_Name|Last_Name    |Comapany |Work_Email                  |Username  |Password |
+     |----------|-------------|---------|----------------------------|----------|---------|
+     |Gemunu    |Priyadarshana|Gemunu.lk|gpriyadarshana88@eyesoft.com|gemunulk88|Gemunu@89|
+11:54:16.492 ## Gridlastic Registration Testing Scenario
+11:54:16.494 * Navigate to Gridlastic Registration Page
+11:54:18.405 * Validate the Gridlastic Registration Page title
+11:54:18.543 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:54:33.632 * Validate that the registration result is success
+
+11:54:33.985 
+     |First_Name|Last_Name|Comapany|Work_Email                 |Username      |Password |
+     |----------|---------|--------|---------------------------|--------------|---------|
+     |Eranga    |Heshan   |eyeSoft |eranga.heshan22@eyesoft.com|erangaheshan22|Eranga@93|
+11:54:33.985 ## Gridlastic Registration Testing Scenario
+11:54:33.985 * Navigate to Gridlastic Registration Page
+11:54:34.960 * Validate the Gridlastic Registration Page title
+11:54:35.266 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table
+11:54:47.951 * Validate that the registration result is success
+
+11:55:04.050 
+Failed Step: Validate that the registration result is success
+11:55:04.050 Specification: specs\Register into Gridlastic using a data driven CSV.spec:17
+11:55:04.050 Error Message: java.lang.AssertionError: expected [true] but found [false]
+11:55:04.050 Stacktrace: 
+org.testng.Assert.fail(Assert.java:94)
+org.testng.Assert.failNotEquals(Assert.java:494)
+org.testng.Assert.assertTrue(Assert.java:42)
+org.testng.Assert.assertTrue(Assert.java:52)
+pages.GridlasticRegistrationPage.validateRegistrationResult(GridlasticRegistrationPage.java:63)
+stepImpl.GridlasticRegistrationScenario.validationOfRegistration(GridlasticRegistrationScenario.java:42)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+11:55:05.943 Plugin [Html Report] with pid [13200] has exited
+11:55:06.146 Specifications:	2 executed	0 passed	2 failed	0 skipped
+11:55:06.146 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+11:55:06.146 
+Total time taken: 3m36.565s
