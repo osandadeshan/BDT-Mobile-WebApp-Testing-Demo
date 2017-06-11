@@ -3,7 +3,7 @@
 		"-simple-console": "true"
 	},
 	"FailedItems": [
-		"specs\\Register into Gridlastic using a data driven table.spec:16",
-		"specs\\Register into Gridlastic using a data driven CSV.spec:12"
+		"specs\\Register into Gridlastic using a data driven table.spec:19",
+		"specs\\Register into Gridlastic using a data driven CSV.spec:15"
 	]
 }

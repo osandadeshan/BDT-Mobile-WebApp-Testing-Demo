@@ -8,9 +8,13 @@ Every heading in this file denotes a scenario. Every bulleted point denotes a st
 
     table:/resources/gridlastic_registration_details.csv
 
+* Retrieve the current Operating System name
+* Retrieve the current Browser name
+
 
 Gridlastic Registration Testing Scenario
 ----------------------------------------
+
 * Navigate to Gridlastic Registration Page
 * Validate the Gridlastic Registration Page title
 * Validate the registraion to Gridlastic using First Name as <First_Name>, Last Name as <Last_Name>, Comapany as <Comapany>, Work Email as <Work_Email>, Username as <Username> and Password as <Password> in the following table

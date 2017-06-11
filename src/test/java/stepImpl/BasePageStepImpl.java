@@ -1,15 +1,28 @@
 package stepImpl;
 
+import com.thoughtworks.gauge.Gauge;
 import com.thoughtworks.gauge.Step;
-import java.io.IOException;
-import java.net.MalformedURLException;
-import static stepImpl.AndroidSetup.driver;
+import static stepImpl.DriverSetup.driver;
 
 /**
  * Created by Osanda on 4/29/2017.
  */
 
 public class BasePageStepImpl {
+
+    @Step("Retrieve the current Operating System name")
+    public void getOS() {
+        System.out.println(System.getenv("OPERATING_SYSTEM"));
+        Gauge.writeMessage(System.getenv("OPERATING_SYSTEM"));
+    }
+
+
+    @Step("Retrieve the current Browser name")
+    public void getBrowserName() {
+        System.out.println(System.getenv("BROWSER"));
+        Gauge.writeMessage(System.getenv("BROWSER"));
+    }
+
 
     @Step("Closing the driver")
     public void after(){

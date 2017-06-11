@@ -6,7 +6,7 @@ import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
-import stepImpl.AndroidSetup;
+import stepImpl.DriverSetup;
 
 /**
  * Created by Osanda on 5/24/2017.
@@ -28,9 +28,9 @@ public class GridlasticRegistrationPage extends BasePage {
 
 
     public String pageTitle(){
-        System.out.println("Page Title: "+ AndroidSetup.driver.getTitle());
-        Gauge.writeMessage("Page Title: "+ AndroidSetup.driver.getTitle());
-        return AndroidSetup.driver.getTitle();
+        System.out.println("Page Title: "+ DriverSetup.driver.getTitle());
+        Gauge.writeMessage("Page Title: "+ DriverSetup.driver.getTitle());
+        return DriverSetup.driver.getTitle();
     }
 
     public void register(String fName, String lName, String company, String wEmail, String uName, String pw){

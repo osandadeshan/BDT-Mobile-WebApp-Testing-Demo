@@ -12,6 +12,9 @@ Every heading in this file denotes a scenario. Every bulleted point denotes a st
     |Gemunu    |Priyadarshana|Gemunu.lk|gpriyadarshana21@gemunulk.com |gemunulk21     |Gemunu@89|
     |Eranga    |Heshan       |eyeSoft  |eranga.heshan20@eyesoft.com   |erangaheshan20 |Eranga@93|
 
+* Retrieve the current Operating System name
+* Retrieve the current Browser name
+
 
 Gridlastic Registration Testing Scenario
 ----------------------------------------
